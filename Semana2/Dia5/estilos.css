@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    background-color: cadetblue;
+}
+body{
+    padding-top: 5%;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+.contenedor{
+    /* text-align: center; */
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    /* box-shadow sh sv tamaño color */
+    box-shadow: 3px 3px 5px black;
+    margin:0 auto;
+    /* margin-top: 5%; */
+    /* transform: translate(50%, 50%); */
+    padding: 0px 10px 10px 10px;
+}
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid red;
+    position: relative;
+    top: -40px;
+    left: 135px;
+}
+.caja{
+    position: relative;
+    width: 260px;
+    top: -40px;
+    margin: 0 auto;
+    text-align: center;
+}
+.input{
+    border: 0;
+    padding: 5px;
+    border-bottom: 1px solid cadetblue;
+    margin-bottom: 20px;
+    width: 200px;
+}
+h1{
+    margin-bottom: 30px;
+ 
+}
+.button{
+    padding: 10px;
+    border: 0;
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+    font: bold 14px Cabin Condensed;
+    text-align: center;
+    width: 200px;
+}
+.olvido{
+    text-align: center;
+    font-size: 15px;
+}

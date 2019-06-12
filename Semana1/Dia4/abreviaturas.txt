@@ -1,0 +1,58 @@
+* ctrl+a  selecciona todo el codigo
+* alt+shif+f ordena el codigo
+* atajos emmet ejemplo  table>tr*6>td*3{texto}
+	*resultado 
+<table>
+       <tr>
+           <td>texto</td>
+           <td>texto</td>
+           <td>texto</td>
+       </tr>
+       <tr>
+           <td>texto</td>
+           <td>texto</td>
+           <td>texto</td>
+       </tr>
+       <tr>
+           <td>texto</td>
+           <td>texto</td>
+           <td>texto</td>
+       </tr>
+       <tr>
+           <td>texto</td>
+           <td>texto</td>
+           <td>texto</td>
+       </tr>
+       <tr>
+           <td>texto</td>
+           <td>texto</td>
+           <td>texto</td>
+       </tr>
+       <tr>
+           <td>texto</td>
+           <td>texto</td>
+           <td>texto</td>
+       </tr>
+  </table>
+
+* hr linea divisoria
+
+* atributo colspan nos sirve para combinar celdas
+
+* atributo rowspan nos sirve para agrupar filas
+* th para la cabecera de las tablas osea la primera fila
+* para seleccionar varios lugares ctrl + d y escoger lo que se seleccionara
+
+* la cabecera de la tabla tiene que ir dentro de las etiquetas <thead>.. </thead>
+* para el cuerpo de la tabla <tbody>...</tbody>
+* para la cabecera de la tabla <tfoot>...</tfoof>
+
+
+CODROPS pagina que nos permite buscar formularios ademas del codigo gratuito
+
+*  etiqueta <fieldset>.. </fieldset> es un agrupador
+*  etiqueta <legend>...</legend> complemento de fielset
+
+* atributo para todas las etiquetas Id y class 
+
+*  

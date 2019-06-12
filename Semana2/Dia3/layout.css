@@ -1,0 +1,34 @@
+/* recomendable ponerlo siempre */
+*{
+    margin: 0;
+    padding: 0;
+    /* con border-box, por mucho padding o borde que tengas el tamoño se mantiene, esto no aplica para el margin */
+    box-sizing: border-box;
+}
+/* body{
+    background-color:rgb(2, 35, 53) 
+} */
+header{
+    background-color: rgb(211, 65, 65);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px black;
+    font-size: 32px;
+    border-bottom: 5px solid rgb(187, 18, 18);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+}
+section{
+    width: 90%;
+    margin: 0px 5%;
+}
+article{
+    border: 10px solid gray;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    /*  display: inline-block; es para que no este el articulo en todo el ancho de la paguina  */
+    display: inline-block;
+    margin: 5px;
+}

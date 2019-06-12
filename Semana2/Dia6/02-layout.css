@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    background-color: cadetblue;
+}
+header{
+    height: 15%;
+    background-color: aqua;
+}
+main{
+    height: 85%;
+}
+.s1, .s2{
+    float: left;
+    height: 100%;
+}
+.s1{
+    width: 80%;
+    background-color: brown
+}
+.s2{
+    width: 20%;
+    background-color: chartreuse;
+}

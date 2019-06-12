@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    /* relative valor para poderlo mover ya que inicialmente todo elemento es static */
+    position: relative;
+}
+#div1 {
+    /* del top(arriba) para abajo voy a avanzar 20 px */
+    top: 20px;
+    left: 20px;
+}
+.contenedor{
+    width: 400px;
+    height: 400px;
+    border: 1px solid green;
+    top: 50%;
+    left: 50%;
+    /* en este caso el porcentaje hace referencia al elemento */
+    transform: translate(50%,50%);
+
+}

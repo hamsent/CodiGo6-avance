@@ -1,0 +1,73 @@
+/* coloco # y el id para llamar a una etiqueta en especifico*/
+#tabla1{
+    color: red;
+}
+#tabla2{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#unparrafo{
+    color: red;
+}
+
+/* a una clase la llamamos con .  */
+.vparrafos{
+    font-weight: bolder;
+    background-color: greenyellow;
+    color: orangered;
+}
+section .multiple{
+    background-color: skyblue;
+    color: green;
+}
+.article p{
+    color: blue;
+    background-color: gray;
+    font-style: italic;
+}
+#parrafo1{
+    color: red;
+    font-weight: bolder;
+}
+#parrafo2{
+    color: green;
+    font-weight: bolder;
+}
+#parrafo3{
+    color:greenyellow;
+    font-weight: bolder;
+}
+#parrafo4{
+    color:blue;
+    font-weight: bolder;
+    background-color: greenyellow;
+}
+label[for]{
+    background-color: skyblue;
+   font-size: 24px;
+}
+
+label[for="variable"]{
+    background-color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+/* selecciono un elemento '#tabla1' un elemento hijo 'tr' seguido por :nth-child() --->> selector hijo:nth-child(v) */
+#tabla1 tr:nth-child(1){
+    background-color: skyblue;
+    font-weight: bolder;
+
+}
+/* odd elementos inpares even pares */
+#tabla2 tr:nth-child(even){
+    background-color: white;
+    color: black;
+
+}
+
+/* va a buscar todos los div que pueda colocar estas propiedades pero a excepcion de la clase o valor que le este pasndo a not(clase o valor) */
+div:not(.excepcion){
+    font-size: 40 px;
+    background-color: violet;
+}

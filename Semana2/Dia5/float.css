@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    background-color: cadetblue;
+}
+body *{
+    border: 1px solid red;
+}
+img{
+    float: left;
+}
+#contenedor{
+    border: 1px solid blue;
+    background-color: coral;
+}
+.imagen2{
+float:right;
+}
+/* clear: both; nos permite agrupar el contenedor cuando usamos float, se puede usar both, right*/
+
+.clear{
+    clear: both;
+}

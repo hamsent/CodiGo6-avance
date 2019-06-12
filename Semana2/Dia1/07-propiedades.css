@@ -1,0 +1,37 @@
+body{
+    background-image: url(./../imagen/textura.jpg);
+}
+/* text-shadow: color tamaños sombra H, V, difuminación */
+h1{
+    text-shadow:rgb(128,128,128) 4px 4px 5px;
+    /* webkit propiedad neta de croone */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+}
+#sombra{
+    border: 2px solid #225585;
+    /* box-shadow como minimo necesita dos valores */
+    /* el 3er valor sera la difuminación de la sombra */
+    /* EL 4to valor sera el tamaño de la sombra */
+   /* el ultimo valor sera el color de la sombra */
+    box-shadow: 4px 4px 10px 10px #31a4e7;
+    height: 500px;
+    /* background-image: repeating-linear-gradient(-45deg,red, yellow, green); */
+    /* webkit degradado que nos da el navegador croone  -o- opera */
+    background: -webkit-radial-gradient(right,ellipse,transparent, darkblue);
+}
+#imagen{
+    width: 800px;
+    /* grayscale va de 0 a 1 en escala de grises */
+    /* filter: grayscale(0.8); */
+    /* saturate: cambia la saturación de 0 a 10*/
+    /* filter: saturate(7); */
+    /* brightness: cambiara el brillo de la imagen de 0.1 a 10  */
+    /* filter: brightness(5); */
+    /* invertira la imagen  negativo */
+    /* filter: invert(1); */
+    /* blur: bifuminará mi imagen de 1 a 10 en pixeles */
+    /* filter: blur(8px); */
+    /* contrast: cambiara el contraste de mi imagen de 0 a 10 */
+    filter: contrast(5);
+}

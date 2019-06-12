@@ -1,0 +1,54 @@
+/* quitamos a todo elemento cualquier margin o padding que pueda tener de forma predeterminada */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('./../../Semana2/imagen/textura.jpg');
+height: max-content;
+}
+#contenedor{
+    border: red 1px solid;
+    margin: 40px;
+    padding: 20px;
+}
+#caja1{
+    border: blue 1px solid;
+    /* si pongo dos variables la primera aplicara para arriba y abajo y la segunda para los costados */
+    height: 600px;
+
+    padding: 10px 40px;
+    background: rgba(200, 45, 98, 0.5) url(./../imagen/icono1.png);
+    background-repeat: repeat-x;
+}
+#caja2{
+    border: purple 2px solid;
+    /*  */
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 60px;
+    /* el orden en cuatro variables es arriba(top), derecha(right), abajo(bottom) e izquierda(left) */
+    padding: 20px 40px 60px 80px;
+    height: 600px;
+    width: 600px;
+    background-image: url(./../imagen/icono.gif);
+    background-repeat: repeat;
+}
+#caja3{
+    /* border-width: 6px; */
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 6px;
+    border-color: rgb(180,50, 20);
+    /*  */
+    border-bottom-style: double;
+    border-top-style: dotted;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    /* primero escoje la esquina superior izquierda, derecha, luego esquina inferior derecha y luego inferior izquierda*/
+    /* border-radius: 20px 40px 60px 80px; */
+    border-radius: 20%;
+}

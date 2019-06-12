@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    background-color: cadetblue;
+}
+
+header{
+    height: 50%;
+    width: 95%;
+    background-color: aqua;
+    left: 2.5%;
+    position: relative;
+}
+.celeste{
+    height: 22.5%;
+    position: relative;
+    margin-top: 2.5%;
+    left: 2.5%;
+    width: 95%;
+ 
+}
+.celeste>section{
+    height: 100%;
+    
+}
+.s1{
+    float: left;
+    background-color: brown;
+    width: 49%;
+}
+.s2{
+    float: left;
+    background-color: yellow;
+    width: 49%;
+    margin-left: 2%;
+}
+.violeta{
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+    height: 22.5%;
+    margin-top: 2.5%;
+}
+.s3{
+    float: left;
+    width: 32%;
+    background-color: violet;
+    height: 100%;
+}
+.s4{
+    float: left;
+    width: 32%;
+    background-color: violet;
+    height: 100%;
+    margin-left: 2%;
+}
+.s5{
+    float: right;
+    width: 32%;
+    background-color: violet;
+    height: 100%;
+  
+}

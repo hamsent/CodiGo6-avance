@@ -1,0 +1,29 @@
+/*esta es la forma de hacer comentarios*/
+/* con * llamamos a todo */
+*{
+    color: violet;
+}
+p{
+    color: firebrick;
+    font-size: 30px;
+}
+label{
+    color: blue;
+}
+span{
+    color: chartreuse;
+}
+div label{
+font-size: 45px;
+color: hotpink;
+}
+div>label{
+    color: purple;
+}
+h1+h2{
+    font-weight: bold;
+    color: green;
+}
+h3,h4,h5{
+    background-color: yellow;
+}

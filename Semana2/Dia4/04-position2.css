@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.contenedor{
+    width: 500px;
+    height: 2000px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.hijo{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: yellow;
+    color: red;
+    /*para que funcione el padre de este contenedor tiene que tener la position: relative, con absolute ya se puede usar las propiedades top, bottom, rigth, left  */
+    /* position: absolute; */
+    /* position: fixed acompaña el elemento si bajamos el scroll del navegador, no importa la posicion que tenga el padre, solo obedece al navegador, si en este caso ponemos width al 100% con fixed tendriamos en menu */
+    position: fixed;
+    bottom: 0;
+}
+.hija{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    background-color: pink;
+    color: red;
+    /*para que funcione el padre de este contenedor tiene que tener la position: relative, con absolute ya se puede usar las propiedades top, bottom, rigth, left  */
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+.hermano{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.mitad{
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    border-bottom: 1px solid yellow;
+    top: 50%
+    
+}

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    background-color: cadetblue;
+}
+#papa{
+    height: 100%;
+    display: flex;
+    /*justify-content predeterminadamente va a ser flex-start,flex-end, space-between, space-araunt*/
+    justify-content: space-between;
+    /* flex direction: column, row, row-reverse,column-reverse  */
+    flex-direction: row;
+    /* me alinea de forma vertical o horizontal mis elementos hijos  depende si es column o row*/
+    align-items: flex-start;
+    flex-wrap:nowrap;
+}
+.hijo{
+    border: 1px solid yellow;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    color: black;
+    font-size: 30px;
+    /* flex-shrink; 0 no deja que se encoja, 1 si deja que se enconja asi redusca la pantalla */
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+#mayor{
+    flex-grow: 5;
+    flex-basis: 500px;
+    /* flex-grow, flex-shrink,fle-basis */
+
+}

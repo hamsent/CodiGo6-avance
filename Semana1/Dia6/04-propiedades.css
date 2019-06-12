@@ -1,0 +1,53 @@
+
+/*  */
+@font-face{
+    font-family: 'codigo';
+    src: url('./../Fuente/mifuente/KaushanScript-Regular.otf')
+}
+/* se puede colocar varios valores, por si el computador del cliente no tiene la fuente arial busca, cursiva */
+#fontfamily{
+    font-family: arial,cursive;
+}
+#fontsize{
+    font-size: 40px;
+}
+#fontweight{
+    font-weight: bolder;
+}
+#fontstyle{
+    font-style: italic;
+}
+/* estilos (bold italic) tamaño(24px)  */
+#font{
+    font:bold 24px arial,cursive;
+}
+#textalign{
+    text-align: center;
+}
+#textalign2{
+ text-align: justify;
+    
+}
+#textindent{
+    text-indent: 40px;
+}
+#letterspacing{
+    letter-spacing: 6px;
+}
+#wordspacing{
+    word-spacing: 15px;
+}
+#lineheight{
+    line-height: 25px;
+}
+#textdecoration{
+    text-decoration: underline red;
+}
+#customfont{
+    font-family:'codigo';
+    user-select: none;
+    -moz-user-select: none;
+}
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+}

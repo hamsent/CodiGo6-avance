@@ -1,0 +1,27 @@
+
+/*Nosotros vimos anteriormente que se podia nombrar el color por su nombre */
+h1{
+    color: green;
+}
+/*pero la segunda manerava a usar una combinacion    */
+#rgb{
+    color: rgb(24,30,5a);
+}
+/* los 2 primeros pares de nimeros son rojos, los segundos son verdes y los terceros son azules */
+#hex{
+    color: #Ff1234;
+}
+/* funciona de forma identica a rgb, pero usa un parametro adicional de opacidad */
+#rgba{
+    color: rgba(20, 20, 240, 0.3);
+}
+/* width es el ancho de mi contenedor y height va a ser la altura de mi contenedor */
+#tamano{
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+    /* overflow: hidden; esconde el contenido que esta sobrando y scroll pone la barra lateral */
+    overflow: scroll;
+
+
+}

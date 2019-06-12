@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: rgb(45, 54, 134);
+    color: white;
+    height: 100%;
+}
+.header{
+    height: 15%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+div{
+    border: 1px solid yellow;
+}
+img{
+    width: 120px;
+    height: 120px;
+}
+header{
+    padding: 40px 0 0px 0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    color: white;
+}
+ main{
+     height: 100%;
+ }
+.padre{
+height: 80%;
+}
+.hijo{
+    height: 100%;
+}
