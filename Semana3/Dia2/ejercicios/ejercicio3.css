@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+html, body{
+    height: 100%;
+}
+div{
+    border: 1px solid red;
+}
+.padre{
+    height: 100%;
+}
+.cabecera{
+    background-color: green;
+    height: 15%;
+}
+.cuerpo{
+    display: flex;
+    /* justify-content: space-between; */
+    height: 70%;
+    width: 100%;
+    flex-wrap:wrap;
+}
+.pie{
+    height: 15%;
+     background-color: green;
+}
+
+.nav, .aside{
+    width: 20%;
+    background-color: antiquewhite;
+}
+.article{
+    width: 60%;
+}
