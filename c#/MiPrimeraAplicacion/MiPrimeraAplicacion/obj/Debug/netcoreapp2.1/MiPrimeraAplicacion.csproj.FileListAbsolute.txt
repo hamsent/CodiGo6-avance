@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\netcoreapp2.1\MiPrimeraAplicacion.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\bin\Debug\netcoreapp2.1\MiPrimeraAplicacion.deps.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\bin\Debug\netcoreapp2.1\MiPrimeraAplicacion.runtimeconfig.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\bin\Debug\netcoreapp2.1\MiPrimeraAplicacion.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\bin\Debug\netcoreapp2.1\MiPrimeraAplicacion.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\bin\Debug\netcoreapp2.1\MiPrimeraAplicacion.pdb
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\netcoreapp2.1\MiPrimeraAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\netcoreapp2.1\MiPrimeraAplicacion.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\netcoreapp2.1\MiPrimeraAplicacion.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\netcoreapp2.1\MiPrimeraAplicacion.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\MiPrimeraAplicacion\MiPrimeraAplicacion\obj\Debug\netcoreapp2.1\MiPrimeraAplicacion.pdb

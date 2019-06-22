@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\obj\Debug\netcoreapp2.1\for.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\obj\Debug\netcoreapp2.1\for.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\obj\Debug\netcoreapp2.1\for.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\obj\Debug\netcoreapp2.1\for.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\bin\Debug\netcoreapp2.1\for.deps.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\bin\Debug\netcoreapp2.1\for.runtimeconfig.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\bin\Debug\netcoreapp2.1\for.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\bin\Debug\netcoreapp2.1\for.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\bin\Debug\netcoreapp2.1\for.pdb
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\obj\Debug\netcoreapp2.1\for.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\for\for\obj\Debug\netcoreapp2.1\for.pdb
