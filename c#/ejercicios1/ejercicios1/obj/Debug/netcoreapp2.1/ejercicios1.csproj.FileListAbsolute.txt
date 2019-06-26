@@ -1,0 +1,11 @@
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\bin\Debug\netcoreapp2.1\ejercicios1.deps.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\bin\Debug\netcoreapp2.1\ejercicios1.runtimeconfig.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\bin\Debug\netcoreapp2.1\ejercicios1.runtimeconfig.dev.json
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\bin\Debug\netcoreapp2.1\ejercicios1.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\bin\Debug\netcoreapp2.1\ejercicios1.pdb
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\obj\Debug\netcoreapp2.1\ejercicios1.csprojAssemblyReference.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\obj\Debug\netcoreapp2.1\ejercicios1.csproj.CoreCompileInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\obj\Debug\netcoreapp2.1\ejercicios1.AssemblyInfoInputs.cache
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\obj\Debug\netcoreapp2.1\ejercicios1.AssemblyInfo.cs
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\obj\Debug\netcoreapp2.1\ejercicios1.dll
+C:\Users\Tecsup\Documents\GitHub\Codigo6 - Ronald\CodiGo6-avance\c#\ejercicios1\ejercicios1\obj\Debug\netcoreapp2.1\ejercicios1.pdb
