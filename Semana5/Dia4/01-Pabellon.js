@@ -68,17 +68,19 @@ function Pabellon(nuevoNombre = "Sin Nombre", nuevoFilas, nuevoColumnas, nuevoId
         // consola, de "Nicho vendido" tras cambiar su estado a "ocupado"
         // Si el nicho estaba ocupado, el sistema, deberá mostrar
         // un mensaje de error indicando que el nicho no se puede vender.     
-        venderNicho: function (vender) {
+        venderNicho: function (idNicho) {
             
             for (var i = 0; i < this.nichos.length; i++) {
-                if (this.nichos[i].id == vender && this.nichos[i].estado=="libre") {
+                if (this.nichos[i].id == idNicho && this.nichos[i].estado=="libre") {
                     var respuesta=prompt(`El nicho ${this.nichos[i].id}  esta libre para vender, desea comprarlo? si / no`);
+                    
                     if (respuesta=="si" || respuesta=="SI"){
                         this.nichos[i].estado="cupado"
                     }
-                }else if(this.nichos[i].id == vender && this.nichos[i].estado=="ocupado"){
+                }else {
                     alert(`El nicho ${this.nichos[i].id}  esta ocupado y no se puede vender`);
                 }        
+                break;
             }
         },
         
@@ -89,7 +91,8 @@ function Pabellon(nuevoNombre = "Sin Nombre", nuevoFilas, nuevoColumnas, nuevoId
 
 var pabellonSanJorge = Pabellon("San Jorge", 5, 4, 1);
 var pabellonSanFelipe = Pabellon("San Felipe", 10, 10, 2);
-pabellonSanFelipe.venderNicho(1);
+
+// si
 console.log(pabellonSanFelipe.nichos);
 
 pabellonSanFelipe.repoblarPabellon();
@@ -97,6 +100,9 @@ pabellonSanFelipe.consultarNichosLibres();
 
 pabellonSanJorge.repoblarPabellon();
 pabellonSanJorge.consultarNichosLibres();
+
+pabellonSanFelipe.venderNicho(1);
+pabellonSanFelipe.consultarNichosLibres();
 
 // pabellonSanFelipe.consultarNichosLibres();
 
