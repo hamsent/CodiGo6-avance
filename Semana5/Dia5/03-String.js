@@ -41,7 +41,7 @@ for (i=0;i<nombre.length;i++){
 var minusculas=nombre.toLocaleLowerCase;
 
 for (i=0;i<minusculas.length;i++){
-    if (minusculas[i]=="a"||texto[i]=="A"){
+    if (text[i]=="a"||texto[i]=="A"){
         con++;
     }
     
