@@ -1,0 +1,11 @@
+D:\Semana6\C#\funciones_1\funciones_1\bin\Debug\netcoreapp2.1\funciones_1.deps.json
+D:\Semana6\C#\funciones_1\funciones_1\bin\Debug\netcoreapp2.1\funciones_1.runtimeconfig.json
+D:\Semana6\C#\funciones_1\funciones_1\bin\Debug\netcoreapp2.1\funciones_1.runtimeconfig.dev.json
+D:\Semana6\C#\funciones_1\funciones_1\bin\Debug\netcoreapp2.1\funciones_1.dll
+D:\Semana6\C#\funciones_1\funciones_1\bin\Debug\netcoreapp2.1\funciones_1.pdb
+D:\Semana6\C#\funciones_1\funciones_1\obj\Debug\netcoreapp2.1\funciones_1.csprojAssemblyReference.cache
+D:\Semana6\C#\funciones_1\funciones_1\obj\Debug\netcoreapp2.1\funciones_1.csproj.CoreCompileInputs.cache
+D:\Semana6\C#\funciones_1\funciones_1\obj\Debug\netcoreapp2.1\funciones_1.AssemblyInfoInputs.cache
+D:\Semana6\C#\funciones_1\funciones_1\obj\Debug\netcoreapp2.1\funciones_1.AssemblyInfo.cs
+D:\Semana6\C#\funciones_1\funciones_1\obj\Debug\netcoreapp2.1\funciones_1.dll
+D:\Semana6\C#\funciones_1\funciones_1\obj\Debug\netcoreapp2.1\funciones_1.pdb
