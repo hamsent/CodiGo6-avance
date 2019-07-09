@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html, body{
+        height: 100%;
+    }
+    body{
+        background-color: #2980b9;
+        position: relative;
+    }
+    .correo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 50%;
+        height: 10%;
+        background-color: transparent;
+        /* border-radius: 5px; */
+        border: none;
+        outline: none;
+        border-bottom: 4px solid #2ecc71;
+        font-size: 45px;
+        color: #ecf0f1;
+        padding: 10px;
+    }
+    .mensaje{
+        position: absolute;
+        top: 57%;
+        left: 50%;
+        transform: translate(-50%,0%);
+        width: 50%;
+        height: 10%;
+        font-size: 25px;
+        padding-left: 10px;
+        
+        
+    }
+    </style>
+</head>
+<body>
+
+    <input type="text" class="correo" id="inputCorreo" placeholder="Introduzca su correo">
+    <!-- hidden oculta la etiqueta, si se le pone hidden solo, este asume que es hidden="true" -->
+    <span  class="mensaje" hidden id="resultado">El correo ingresado esta en uso</span>
+  <script src="./02-eventos2.js"></script>  
+</body>
+</html>
