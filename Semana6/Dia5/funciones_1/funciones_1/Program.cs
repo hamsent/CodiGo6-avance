@@ -76,9 +76,68 @@ namespace funciones_1
             MostrarArreglo(arr);
             return eliminar;
         }
+
+        // ORDENAR ELEMENTOS DE MANERA ASCENDENTE
+        static void OrdenarArreglo(int[] arr)
+        {
+            MostrarArreglo(arr);
+            /*
+            // USA EL PRIMER Y SEGUNDO ELEMENTO
+            if (arr[0] > arr[1])
+            {
+               int aux;
+               // HACEMOS CAMBIO DE VALORES
+               aux = arr[0];
+               arr[0] = arr[1];
+               arr[1] = aux;
+            }*/
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = i; j < arr.Length; j++)
+                {
+                    if (arr[i] > arr[j])
+                    {
+                        int aux;
+                        // HACEMOS CAMBIO DE VALORES
+                        aux = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = aux;
+                    }
+                }
+            }
+            MostrarArreglo(arr);
+        }
+
+        static void ArregloSimetrico(int[] arr)
+        {
+            MostrarArreglo(arr);
+            bool calculo = true; 
+
+            for(int i = 0, cont=arr.Length-1; i < arr.Length; i++, cont--)
+            {
+                if (arr[i]!=arr[cont])
+                {
+                   calculo = false;
+                    break;
+                }
+                                         
+            }
+            if (calculo)
+            {
+                Console.WriteLine("Es simetrico");
+            }
+            else
+            {
+                Console.WriteLine("No es simetrico");
+            }
+
+        }
+
         static void Main(string[] args)
         {
-            int[] arreglo = { 6, 3, 5, 9, 2, 10, 32, 7 };
+            //int[] arreglo = { 6, 3, 5, 9, 2, 10, 32, 7 };
+            int[] arreglo = { 6, 3, 5, 9,6,5,9, 5, 3, 6 };
             int opcion;
             do
             {
@@ -104,10 +163,10 @@ namespace funciones_1
                         arreglo = Pop( arreglo);
                         break;
                     case 3:
-                        //OrdenarArreglo();
+                        OrdenarArreglo(arreglo);
                         break;
                     case 4:
-                        //EsSimetrico();
+                        ArregloSimetrico(arreglo);
                         break;
                     case 5:
                         Console.WriteLine("\nIngrese la posicion a eliminar");

@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.deps.json
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.dll
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\bin\Debug\netcoreapp2.1\caracteres.pdb
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.dll
+D:\Ronald\CodiGo6-avance\Semana7\Dia3\caracteres\caracteres\obj\Debug\netcoreapp2.1\caracteres.pdb
