@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\bin\Debug\netcoreapp2.1\ejercicios.deps.json
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\bin\Debug\netcoreapp2.1\ejercicios.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\bin\Debug\netcoreapp2.1\ejercicios.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\bin\Debug\netcoreapp2.1\ejercicios.dll
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\bin\Debug\netcoreapp2.1\ejercicios.pdb
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\obj\Debug\netcoreapp2.1\ejercicios.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\obj\Debug\netcoreapp2.1\ejercicios.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\obj\Debug\netcoreapp2.1\ejercicios.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\obj\Debug\netcoreapp2.1\ejercicios.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\obj\Debug\netcoreapp2.1\ejercicios.dll
+D:\Ronald\CodiGo6-avance\Semana7\Dia4\ejercicios\ejercicios\obj\Debug\netcoreapp2.1\ejercicios.pdb
