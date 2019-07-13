@@ -62,11 +62,14 @@ namespace ConsoleApp1
             //llamada y el numero a marcar. Y debe imprimir el costo a pagar por esa llamada.           
 
             Console.WriteLine("ingrese el telefono a llamar: ");
-            int telefono = int.Parse(Console.ReadLine());
-            Console.WriteLine("ingrese el tiempo de llamada: ");
-            int minutos = int.Parse(Console.ReadLine());
-            054-4591
+            string telefono = Console.ReadLine();
+            
+            Console.WriteLine(telefono.Substring(0, 3));
 
+
+            //Console.WriteLine("ingrese el tiempo de llamada: ");
+            //int minutos = int.Parse(Console.ReadLine());
+          
 
 
         }
