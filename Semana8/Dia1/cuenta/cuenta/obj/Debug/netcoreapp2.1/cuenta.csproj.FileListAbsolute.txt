@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\obj\Debug\netcoreapp2.1\cuenta.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\obj\Debug\netcoreapp2.1\cuenta.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\obj\Debug\netcoreapp2.1\cuenta.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\obj\Debug\netcoreapp2.1\cuenta.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\bin\Debug\netcoreapp2.1\cuenta.deps.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\bin\Debug\netcoreapp2.1\cuenta.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\bin\Debug\netcoreapp2.1\cuenta.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\bin\Debug\netcoreapp2.1\cuenta.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\bin\Debug\netcoreapp2.1\cuenta.pdb
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\obj\Debug\netcoreapp2.1\cuenta.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\cuenta\cuenta\obj\Debug\netcoreapp2.1\cuenta.pdb

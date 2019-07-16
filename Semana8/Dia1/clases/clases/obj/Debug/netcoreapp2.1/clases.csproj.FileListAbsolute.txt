@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\obj\Debug\netcoreapp2.1\clases.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\obj\Debug\netcoreapp2.1\clases.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\obj\Debug\netcoreapp2.1\clases.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\obj\Debug\netcoreapp2.1\clases.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\bin\Debug\netcoreapp2.1\clases.deps.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\bin\Debug\netcoreapp2.1\clases.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\bin\Debug\netcoreapp2.1\clases.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\bin\Debug\netcoreapp2.1\clases.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\bin\Debug\netcoreapp2.1\clases.pdb
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\obj\Debug\netcoreapp2.1\clases.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\clases\clases\obj\Debug\netcoreapp2.1\clases.pdb
