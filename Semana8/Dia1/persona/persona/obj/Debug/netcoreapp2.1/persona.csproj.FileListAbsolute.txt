@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\obj\Debug\netcoreapp2.1\persona.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\obj\Debug\netcoreapp2.1\persona.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\obj\Debug\netcoreapp2.1\persona.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\obj\Debug\netcoreapp2.1\persona.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\bin\Debug\netcoreapp2.1\persona.deps.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\bin\Debug\netcoreapp2.1\persona.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\bin\Debug\netcoreapp2.1\persona.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\bin\Debug\netcoreapp2.1\persona.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\bin\Debug\netcoreapp2.1\persona.pdb
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\obj\Debug\netcoreapp2.1\persona.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia1\persona\persona\obj\Debug\netcoreapp2.1\persona.pdb

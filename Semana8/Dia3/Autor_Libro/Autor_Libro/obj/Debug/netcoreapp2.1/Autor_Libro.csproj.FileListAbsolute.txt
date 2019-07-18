@@ -1,0 +1,10 @@
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\bin\Debug\netcoreapp2.1\Autor_Libro.deps.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\bin\Debug\netcoreapp2.1\Autor_Libro.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\bin\Debug\netcoreapp2.1\Autor_Libro.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\bin\Debug\netcoreapp2.1\Autor_Libro.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\bin\Debug\netcoreapp2.1\Autor_Libro.pdb
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcoreapp2.1\Autor_Libro.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcoreapp2.1\Autor_Libro.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcoreapp2.1\Autor_Libro.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcoreapp2.1\Autor_Libro.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcoreapp2.1\Autor_Libro.pdb
