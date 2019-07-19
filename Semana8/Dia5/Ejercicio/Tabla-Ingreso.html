@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    
+    <style>
+        body {
+            background-color: #2980b9;
+            color: white; 
+        }
+
+        .fondo-tomate {
+            background-color: #ff6348;
+            color: #2980b9;
+        }
+        #btnDark{
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+
+        }
+    </style>
+       <script>
+            window.onload=function(){
+                var btnAgregar = document.getElementById("btnAgregar");
+                var final=0;
+                btnAgregar.onclick=function(){
+
+                    var cantidad=document.getElementById("cantidad").value;
+                    var descripcion=document.getElementById("descripcion").value;
+                    var precio=document.getElementById("precio").value;
+
+                    if (cantidad=="" || descripcion==""||precio==""){
+                        alert("Ingrese todos los datos!!!");
+   
+                    }else{
+                        var tablaBody=document.getElementById("tablaBody");
+
+                    var tr=document.createElement("tr");
+                    var tdCantidad=document.createElement("td");
+                    var tdDescripcion=document.createElement("td");
+                    var tdPrecioUni=document.createElement("td");
+                    var tdPrecioTotal=document.createElement("td");
+
+                    tdCantidad.innerHTML=cantidad;
+                    tdDescripcion.innerHTML=descripcion;
+                    tdPrecioUni.innerHTML=precio;
+                    tdPrecioTotal.innerHTML=cantidad*precio;
+
+                    tr.appendChild(tdCantidad);
+                    tr.appendChild(tdDescripcion);
+                    tr.appendChild(tdPrecioUni);
+                    tr.appendChild(tdPrecioTotal);
+
+                    tablaBody.appendChild(tr);
+
+                    var trFooter=document.getElementById("trFooter");
+                    var total=document.getElementById("total");
+                    trFooter.style.display="block";
+                   
+                    final =final+(precio*cantidad);
+                    total.innerHTML=final;
+                    trFooter.appendChild(total);
+                   
+                    // LIMPIA LOS CAMPOS DE ENTRADA
+                    document.getElementById("cantidad").value="";
+                    document.getElementById("descripcion").value="";
+                    document.getElementById("precio").value="";
+                    }
+           
+                }
+            }
+                 
+        </script>
+
+</head>
+
+<body>
+    <!-- semantica  : html5 outliner -->
+    <main class="container">
+        <h3>Tabla Factura </h3>
+        <table class="table table-dark" id="tablaCabecera">
+            <tr>
+                <td><h5>INGRESO DE DETALLE:</h5></td>
+                
+            </tr>
+            <tr>
+                <td>CANTIDAD</td>
+                <td><input type="number" id="cantidad" style="width:80px"></td>
+            </tr>
+            <tr>
+                <td>DESCRIPCIÓN</td>
+                <td><input type="text" id="descripcion" style="width:300px"></td>
+            </tr>
+            <tr>
+                <td>PRECIO UNITARIO</td>
+                <td><input type="number" id="precio" style="width:80px"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: center"><button type="button"  class="btn btn-outline-danger" id="btnAgregar">Agregar</button></td>
+            </tr>
+        </table>
+        <table class="table table-dark table-hover" id="tablaDetalle">
+            <thear>
+                <tr>
+                    <th>CANTIDAD</th>
+                    <th>DESCRIPCIÓN</th>
+                    <th>PRECIO UNITARIO</th>
+                    <th>PRECIO TOTAL</th>
+                </tr>
+            </thear>
+            <tbody id="tablaBody">
+          
+            </tbody>
+            <tfooter id="tablaFooter">
+                <tr style="display: none" id="trFooter">
+                    <td><h5>TOTAL</h5></td>
+                    <td id="total"></td>
+                    
+                </tr>
+            </tfooter>
+        </table>
+        
+      
+        
+    </main>
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+        
+</body>
+
+</html>
