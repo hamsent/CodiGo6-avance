@@ -8,3 +8,4 @@ D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcorea
 D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcoreapp2.1\Autor_Libro.AssemblyInfo.cs
 D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcoreapp2.1\Autor_Libro.dll
 D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcoreapp2.1\Autor_Libro.pdb
+D:\Ronald\CodiGo6-avance\Semana8\Dia3\Autor_Libro\Autor_Libro\obj\Debug\netcoreapp2.1\Autor_Libro.csprojAssemblyReference.cache

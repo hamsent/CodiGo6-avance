@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\bin\Debug\netcoreapp2.1\televisor.deps.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\bin\Debug\netcoreapp2.1\televisor.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\bin\Debug\netcoreapp2.1\televisor.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\bin\Debug\netcoreapp2.1\televisor.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\bin\Debug\netcoreapp2.1\televisor.pdb
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\obj\Debug\netcoreapp2.1\televisor.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\obj\Debug\netcoreapp2.1\televisor.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\obj\Debug\netcoreapp2.1\televisor.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\obj\Debug\netcoreapp2.1\televisor.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\obj\Debug\netcoreapp2.1\televisor.dll
+D:\Ronald\CodiGo6-avance\Semana8\Dia6\C#\televisor\televisor\obj\Debug\netcoreapp2.1\televisor.pdb

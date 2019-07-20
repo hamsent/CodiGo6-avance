@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: #0a3d62;
+        color: white;
+    }
+    </style>
+    <script>
+        window.onload=function(){
+            var inputNombre=document.getElementById("inputNombre");
+            var smallNombre=document.getElementById("smallNombre");
+           inputNombre.onkeyup=function(){
+               var tamanio=inputNombre.value.length;
+               if (tamanio<10){
+                   inputNombre.classList.add("is-invalid");
+                   inputNombre.classList.remove("is-valid");
+                //    smallNombre.classList.add("invalid-feedback");
+                //    smallNombre.classList.remove("valid-feedback");
+                smallNombre.classList.add("text-danger");
+                   smallNombre.classList.remove("text-success");
+               }else{
+                   inputNombre.classList.add("is-valid");
+                   inputNombre.classList.remove("is-invalid");
+                   smallNombre.classList.add("text-success");
+                   smallNombre.classList.remove("text-danger");
+               }
+           }
+           var inputMensaje=document.getElementById("inputMensaje");
+           var smallMensaje=document.getElementById("smallMensaje");
+           inputMensaje.onkeyup=function(){
+               var quedan=50-inputMensaje.value.length;
+
+            smallMensaje.innerHTML=`quedan ${quedan} caracteres`;
+            }
+           
+        }
+    </script>
+</head>
+<body>
+    <main class="container-fluid">
+        <h4>Formulario Vertical</h4>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- autocomplete="off" ya no muestra la lista de elementos ingresados en anteriores formularios -->
+                <form action="" autocomplete="off"  class="row">
+                    <div class="form-group col-md-12">
+                        <label for="inputNombre">Nombre y Apellido</label>
+                        <input type="text" placeholder="Ejm: Juan Perez" class="form-control" id="inputNombre">
+                        <small class="form-text " id="smallNombre">
+                            Ingresa al menos 10 caracteres
+                        </small>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputPassword">Contraseña</label>
+                        <input type="password" placeholder="Ingrese su Contraseña" class="form-control" id="inputPassword">
+                        <small class="form-text text-muted">
+                                Minimo una mayúscula y una minúscula
+                            </small>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputMensaje">Escriba un Mensaje</label>
+                        <textarea name="" placeholder="Escriba un Mensaje" id="inputMensaje" cols="30" rows="10" class="form-control" maxlength="50"></textarea>
+                        <small class="text-muted" id="smallMensaje">Quedan 50 caracteres</small>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="">Elija Idioma</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="checkbox" id="es">
+                                </div>
+                            </div>
+                            <label for="es" class="form-control">
+                                    Español
+                            </label>
+                        </div>
+                        <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="checkbox" id="en">
+                                    </div>
+                                </div>
+                                <label for="en" class="form-control">
+                                        English
+                                </label>
+                            </div>
+                            <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" id="por">
+                                        </div>
+                                    </div>
+                                    <label for="por" class="form-control">
+                                            Portugues
+                                    </label>
+                                </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="">Elija Turno</label>
+                        <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="radio" id="na" name="inputTurno" checked>
+                                    </div>
+                                </div>
+                                <label for="na" class="form-control">
+                                        Mañana
+                                </label>
+                        </div>
+                        <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="radio" id="ta" name="inputTurno">
+                                    </div>
+                                </div>
+                                <label for="ta" class="form-control">
+                                        Tarde
+                                </label>
+                            
+                        </div>
+                        <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="radio" id="no" name="inputTurno">
+                                    </div>
+                                </div>
+                                <label for="no" class="form-control">
+                                        Noche
+                                </label>
+                        </div>
+
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="selectPais">Elija Pais</label>
+                        <select name="" id="selectPais" class="form-control">
+                            <option value="">Perú</option>
+                            <option value="">España</option>
+                            <option value="">Argentina</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                            <label for="selectCursos">Elija Cursos</label>
+                            <select name="" id="selectCursos" class="form-control" multiple>
+                                <option value="">Programación Orientada a Objetos</option>
+                                <option value="">Inteligencia Artificial</option>
+                                <option value="">Mineria de Datos</option>
+                            </select>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <button class="btn btn-primary">
+                            Registrarme
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                Texto2
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

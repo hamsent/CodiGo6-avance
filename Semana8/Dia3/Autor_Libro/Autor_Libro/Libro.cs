@@ -25,6 +25,7 @@ namespace Autor_Libro
             this.autor = autor;
         }
 
+        //sobreescritura de la funcion TOSTRING()
         public override string ToString()
         {
             return  $"[Titulo: {titulo} - precio: {precio} - Autor: {autor}]";
