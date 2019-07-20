@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./factura.js"></script>
+    <style>
+    body{
+        background-color: #0a3d62;
+        color: white;
+    }
+    #datos{
+        position: fixed;
+        /* top: 0; */
+        bottom: 0;
+        right: -170px;
+    }
+    #datos:hover{
+        right: 0px;
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            
+            <table class="table table-dark">
+                <tr>
+                    <td>FECHA:</td>
+                    <td><input type="date" class="form-control" id="inputFecha"></td>
+                </tr>
+                <tr>
+                    <td>NOMBRE:</td>
+                    <td><input type="text" placeholder="Ingrese el Nombre" class="form-control" id="inputNombre"></td>
+                </tr>
+                <tr>
+                    <td>RUC/DNI:</td>
+                    <td><input type="text" placeholder="Ingrese su DNI/RUC" class="form-control" id="inputDni"></td>
+                </tr>
+                <tr>
+                    <td>DIRECCIÓN:</td>
+                    <td><input type="text" placeholder="Ingrese Dirección" class="form-control" id="inputDireccion"></td>
+                </tr>
+            </table>
+            <table class="table table-dark" >
+                <thead> 
+                    <tr>
+                            <td>CANT.</td>
+                            <td>DESCRIPCIÓN</td>
+                            <td>P. UNIT.</td>
+                            <td>VALOR VENTA</td>
+                    </tr>
+                </thead>
+                <tbody id="tProductos">
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-right">TOTAL:</td>
+                        
+                        <td id="tdTotal"></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div id="datos">
+                    <label for="">CANT:</label>
+                    <input type="number" min="1" max="10" id="inputCant" class="form-control">
+                    <label for="">PRODUCTO:</label>
+                    <input type="text" id="inputProd" class="form-control">
+                    <label for="">PRECIO:</label>
+                    <input type="text" id="inputPrecio" class="form-control"> <hr>
+                    <button id="btnAgregar" type="button" class="btn btn-outline-danger">AGREGAR</button>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
