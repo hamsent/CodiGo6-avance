@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+    <!-- <style>
+            body{
+                background-color: #0a3d62;
+                color: white;
+            }
+            </style> -->
+    <script>
+        window.onload = function () {
+            var inputNombre = document.getElementById("inputNombre");
+            var smallNombre = document.getElementById("smallNombre");
+            inputNombre.onkeyup = function () {
+                var tamanio = inputNombre.value.length;
+                if (tamanio < 10) {
+                    inputNombre.classList.add("is-invalid");
+                    inputNombre.classList.remove("is-valid");
+                    //    smallNombre.classList.add("invalid-feedback");
+                    //    smallNombre.classList.remove("valid-feedback");
+                    smallNombre.classList.add("text-danger");
+                    smallNombre.classList.remove("text-success");
+                } else {
+                    inputNombre.classList.add("is-valid");
+                    inputNombre.classList.remove("is-invalid");
+                    smallNombre.classList.add("text-success");
+                    smallNombre.classList.remove("text-danger");
+                }
+            }
+            var inputMensaje = document.getElementById("inputMensaje");
+            var smallMensaje = document.getElementById("smallMensaje");
+            inputMensaje.onkeyup = function () {
+                var quedan = 50 - inputMensaje.value.length;
+
+                smallMensaje.innerHTML = `quedan ${quedan} caracteres`;
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+
+    <main>
+        <h4>Formulario Vertical</h4>
+        <div class="row">
+            <div class="col m6">
+                <!-- autocomplete="off" ya no muestra la lista de elementos ingresados en anteriores formularios -->
+                <form action="" autocomplete="off" class="row">
+                    <div class="input-field col m12">
+                        <label for="inputNombre">Nombre y Apellido</label>
+                        <input type="text" placeholder="Ejm: Juan Perez" class="input-field" id="inputNombre">
+                        <small class="form-text " id="smallNombre">
+                            Ingresa al menos 10 caracteres
+                        </small>
+                    </div>
+                    <div class="input-field col m12">
+                        <label for="inputPassword">Contraseña</label>
+                        <input type="password" placeholder="Ingrese su Contraseña" class="form-control"
+                            id="inputPassword">
+                        <small class="form-text text-muted">
+                            Minimo una mayúscula y una minúscula
+                        </small>
+                    </div>
+                    <div class="input-field col m6">
+                        <label for="inputMensaje">Escriba un Mensaje</label>
+                        <textarea name="" placeholder="Escriba un Mensaje" id="inputMensaje" cols="30" rows="10"
+                            class="form-control" maxlength="50"></textarea>
+                        <small class="text-muted" id="smallMensaje">Quedan 50 caracteres</small>
+                    </div>
+                    <div class="col m6">
+                        <label for="">Elija Idioma</label>
+                        <div class="">
+                            <div class="">
+                                <div class="">
+                                    <label for="">
+                                        <input type="checkbox" class="filled-in" id="es" />
+                                        <span>Español</span>
+                                    </label>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="input-group">
+                            <div class="">
+                                <div class="">
+                                    <input type="checkbox" class="filled-in" id="en">
+                                    <span>English</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="checkbox" id="por">
+                                </div>
+                            </div>
+                            <label for="por" class="form-control">
+                                Portugues
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group col m6">
+                        <label for="">Elija Turno</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="radio" id="na" name="inputTurno" checked>
+                                </div>
+                            </div>
+                            <label for="na" class="form-control">
+                                Mañana
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="radio" id="ta" name="inputTurno">
+                                </div>
+                            </div>
+                            <label for="ta" class="form-control">
+                                Tarde
+                            </label>
+
+                        </div>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="radio" id="no" name="inputTurno">
+                                </div>
+                            </div>
+                            <label for="no" class="form-control">
+                                Noche
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="form-group col m6">
+                        <label for="selectPais">Elija Pais</label>
+                        <select name="" id="selectPais" class="form-control">
+                            <option value="">Perú</option>
+                            <option value="">España</option>
+                            <option value="">Argentina</option>
+                        </select>
+                    </div>
+                    <div class="form-group col m6">
+                        <label for="selectCursos">Elija Cursos</label>
+                        <select name="" id="selectCursos" class="form-control" multiple>
+                            <option value="">Programación Orientada a Objetos</option>
+                            <option value="">Inteligencia Artificial</option>
+                            <option value="">Mineria de Datos</option>
+                        </select>
+                    </div>
+                    <div class="form-group col m12">
+                        <button class="btn btn-primary">
+                            Registrarme
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col m6">
+                Texto2
+            </div>
+        </div>
+
+        <label>
+            <input type="checkbox" class="filled-in" checked="checked" />
+            <span>Filled in</span>
+        </label>
+        <label>
+            <input type="checkbox" class="filled-in" id="es" checked="checked" />
+            <span>Español</span>
+        </label>
+
+    </main>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
