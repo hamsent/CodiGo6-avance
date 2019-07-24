@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Spartacus\\Documents\\GitHub\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\ejercicio.csproj": {}
+    "D:\\Ronald\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\ejercicio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Spartacus\\Documents\\GitHub\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\ejercicio.csproj": {
+    "D:\\Ronald\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\ejercicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Spartacus\\Documents\\GitHub\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\ejercicio.csproj",
+        "projectUniqueName": "D:\\Ronald\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\ejercicio.csproj",
         "projectName": "ejercicio",
-        "projectPath": "C:\\Users\\Spartacus\\Documents\\GitHub\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\ejercicio.csproj",
-        "packagesPath": "C:\\Users\\Spartacus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Spartacus\\Documents\\GitHub\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\obj\\",
+        "projectPath": "D:\\Ronald\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\ejercicio.csproj",
+        "packagesPath": "C:\\Users\\mañana\\.nuget\\packages\\",
+        "outputPath": "D:\\Ronald\\CodiGo6-avance\\Semana9\\Dia2\\C#\\ejercicio\\ejercicio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Spartacus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mañana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

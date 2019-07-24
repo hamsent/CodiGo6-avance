@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\bin\Debug\netcoreapp2.1\felinos.deps.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\bin\Debug\netcoreapp2.1\felinos.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\bin\Debug\netcoreapp2.1\felinos.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\bin\Debug\netcoreapp2.1\felinos.dll
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\bin\Debug\netcoreapp2.1\felinos.pdb
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\obj\Debug\netcoreapp2.1\felinos.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\obj\Debug\netcoreapp2.1\felinos.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\obj\Debug\netcoreapp2.1\felinos.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\obj\Debug\netcoreapp2.1\felinos.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\obj\Debug\netcoreapp2.1\felinos.dll
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\herencia-felinos\felinos\felinos\obj\Debug\netcoreapp2.1\felinos.pdb

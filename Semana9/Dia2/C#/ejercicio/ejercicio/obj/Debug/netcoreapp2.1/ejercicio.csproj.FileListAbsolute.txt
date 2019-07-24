@@ -9,3 +9,14 @@ C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\eje
 C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\obj\Debug\netcoreapp2.1\ejercicio.AssemblyInfo.cs
 C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\obj\Debug\netcoreapp2.1\ejercicio.dll
 C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\obj\Debug\netcoreapp2.1\ejercicio.pdb
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\obj\Debug\netcoreapp2.1\ejercicio.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\obj\Debug\netcoreapp2.1\ejercicio.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\obj\Debug\netcoreapp2.1\ejercicio.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\obj\Debug\netcoreapp2.1\ejercicio.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\obj\Debug\netcoreapp2.1\ejercicio.dll
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\obj\Debug\netcoreapp2.1\ejercicio.pdb
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\bin\Debug\netcoreapp2.1\ejercicio.deps.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\bin\Debug\netcoreapp2.1\ejercicio.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\bin\Debug\netcoreapp2.1\ejercicio.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\bin\Debug\netcoreapp2.1\ejercicio.dll
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\ejercicio\ejercicio\bin\Debug\netcoreapp2.1\ejercicio.pdb

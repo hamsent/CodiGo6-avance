@@ -10,12 +10,12 @@ namespace ejercicio
         string titulo;
         string genero;
         double precio;
-        string disponibilidad;
+        int disponibilidad;
         string puntuacion;
         int estreno;
 
        
-        public Pelicula(int id, string titulo, string genero, double precio, string disponibilidad, string puntuacion, int estreno)
+        public Pelicula(int id, string titulo, string genero, double precio, int disponibilidad, string puntuacion, int estreno)
         {
             this.id = id;
             this.titulo = titulo;
@@ -32,7 +32,7 @@ namespace ejercicio
             this.titulo = "Corazón Valiente";
             this.genero = "Drama";
             this.precio = 10;
-            this.disponibilidad = "no";
+            this.disponibilidad = 10;
             this.puntuacion = "5 estrellas";
             this.estreno = 2002;
         }
@@ -41,7 +41,7 @@ namespace ejercicio
         public string Titulo { get => titulo; set => titulo = value; }
         public string Genero { get => genero; set => genero = value; }
         public double Precio { get => precio; set => precio = value; }
-        public string Disponibilidad { get => disponibilidad; set => disponibilidad = value; }
+        public int Disponibilidad { get => disponibilidad; set => disponibilidad = value; }
         public string Puntuacion { get => puntuacion; set => puntuacion = value; }
         public int Estreno { get => estreno; set => estreno = value; }
 
@@ -57,9 +57,14 @@ namespace ejercicio
         //}
         public void peliculaDisponible()
         {
-            if (this.Disponibilidad == "si")
+            if (this.Disponibilidad >=1)
             {
-                Console.WriteLine("TITULO: "+this.Titulo);
+                Console.WriteLine("ID: "+this.id);
+                Console.WriteLine("TITULO: " + this.Titulo);
+                Console.WriteLine("GENERO: " + this.Genero);
+                Console.WriteLine("PRECIO: " + this.Precio);
+                Console.WriteLine("DISPONIBILIDAD: " + this.Disponibilidad);
+                Console.WriteLine("ESTRENO: " + this.Estreno);
             }
             else
             {

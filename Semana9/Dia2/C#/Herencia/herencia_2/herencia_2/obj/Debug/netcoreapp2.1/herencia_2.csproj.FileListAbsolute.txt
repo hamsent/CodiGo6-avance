@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\bin\Debug\netcoreapp2.1\herencia_2.deps.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\bin\Debug\netcoreapp2.1\herencia_2.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\bin\Debug\netcoreapp2.1\herencia_2.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\bin\Debug\netcoreapp2.1\herencia_2.dll
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\bin\Debug\netcoreapp2.1\herencia_2.pdb
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\obj\Debug\netcoreapp2.1\herencia_2.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\obj\Debug\netcoreapp2.1\herencia_2.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\obj\Debug\netcoreapp2.1\herencia_2.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\obj\Debug\netcoreapp2.1\herencia_2.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\obj\Debug\netcoreapp2.1\herencia_2.dll
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\Herencia\herencia_2\herencia_2\obj\Debug\netcoreapp2.1\herencia_2.pdb

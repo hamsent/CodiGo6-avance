@@ -25,7 +25,10 @@ namespace ejercicio
             //4.3 Reducir stock
             //4.4 Aumenta stock
             //4.5 Ordenamiento por puntuacion
-            Pelicula peli = new Pelicula();
+            Pelicula[] arrayPelicula= new Pelicula[10];
+            //Pelicula peli = new Pelicula();
+            arrayPelicula[0] = new Pelicula(1,"Piratas 1","accion",12,12,1,2010);
+            //Pelicula[] peli = new Pelicula[]; 
 
            
 

@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\bin\Debug\netcoreapp2.1\listas.deps.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\bin\Debug\netcoreapp2.1\listas.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\bin\Debug\netcoreapp2.1\listas.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\bin\Debug\netcoreapp2.1\listas.dll
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\bin\Debug\netcoreapp2.1\listas.pdb
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\obj\Debug\netcoreapp2.1\listas.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\obj\Debug\netcoreapp2.1\listas.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\obj\Debug\netcoreapp2.1\listas.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\obj\Debug\netcoreapp2.1\listas.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\obj\Debug\netcoreapp2.1\listas.dll
+D:\Ronald\CodiGo6-avance\Semana9\Dia2\C#\listas\listas\listas\obj\Debug\netcoreapp2.1\listas.pdb
