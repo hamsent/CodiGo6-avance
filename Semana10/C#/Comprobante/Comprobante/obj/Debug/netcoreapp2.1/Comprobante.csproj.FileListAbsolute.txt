@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\bin\Debug\netcoreapp2.1\Comprobante.deps.json
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\bin\Debug\netcoreapp2.1\Comprobante.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\bin\Debug\netcoreapp2.1\Comprobante.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\bin\Debug\netcoreapp2.1\Comprobante.dll
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\bin\Debug\netcoreapp2.1\Comprobante.pdb
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\obj\Debug\netcoreapp2.1\Comprobante.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\obj\Debug\netcoreapp2.1\Comprobante.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\obj\Debug\netcoreapp2.1\Comprobante.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\obj\Debug\netcoreapp2.1\Comprobante.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\obj\Debug\netcoreapp2.1\Comprobante.dll
+D:\Ronald\CodiGo6-avance\Semana10\C#\Comprobante\Comprobante\obj\Debug\netcoreapp2.1\Comprobante.pdb
