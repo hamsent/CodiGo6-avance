@@ -4,13 +4,14 @@ using System.Text;
 
 namespace Comprobante
 {
-    class factura : comprobante
+    class Factura : comprobante
     {
         string razonSocial;
         string ruc;
 
-        //base() hereda el constructor del padre
-        public factura(string fecha, string direccion, string razonSocial, string ruc) : base(fecha, direccion)
+        public Factura(string fecha, string direccion,
+           string razonSocial, string ruc)
+           : base(fecha, direccion)
         {
             this.razonSocial = razonSocial;
             this.ruc = ruc;
@@ -20,14 +21,25 @@ namespace Comprobante
         {
             return productos;
         }
-        public void MostrarFactura()
+
+        public void MostrarFactura() // PUEDE SER LA FUNCION TOSTRING()
         {
-            Console.WriteLine("************FACTURA***********");
-            Console.WriteLine($"CODIGO: {codigo}");
-            Console.WriteLine($"RAZON SOCIAL: {razonSocial}");
-            Console.WriteLine($"RUC: {ruc}");
-            Console.WriteLine($"DIRECCIÓN: {direccion}");
-            Console.WriteLine($"FECHA: {fecha}");
+            Console.WriteLine($"***********FACTURA************");
+            Console.WriteLine($"* Codigo: {codigo}\t\t\t*");
+            Console.WriteLine($"* Razon Social: {razonSocial}\t\t\t*");
+            Console.WriteLine($"* RUC: {ruc}                 *");
+            Console.WriteLine($"* Direccion: {direccion}     *");
+            Console.WriteLine($"* Fecha: {fecha}             *");
+            Console.WriteLine($"* Detalle:                   *");
+            Console.WriteLine($"* Cant.  Descripcion  Precio *");
+            foreach (var item in productos)
+            {
+                //Console.WriteLine($"* {item.cantidad} {item.descripcion}")
+            }
+
+            Console.WriteLine($"******************************");
+            Console.WriteLine();
+
         }
 
         public string RazonSocial { get => razonSocial; set => razonSocial = value; }
