@@ -10,7 +10,7 @@ window.onload = function () {
                             <th>Apellidos</th> 
                             <th>correo</th> 
                             <th>Foto</th></thead>`;
-        tabla.appendChild(tabla);
+       
         var tbody = document.createElement("tbody");
         tabla.appendChild(tbody);
 
