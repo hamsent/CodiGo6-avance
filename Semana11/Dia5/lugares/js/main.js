@@ -5,7 +5,7 @@ window.onload = function () {
 
     frmBusqueda.onsubmit = function (evento) {
         evento.preventDefault();
-        var busqueda = inputBuscar.Value;
+        var busqueda = inputBuscar.value;
         buscarLugar(busqueda);
         console.log("haciendo submit");
     }
