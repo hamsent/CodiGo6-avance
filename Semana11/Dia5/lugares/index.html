@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
     <link rel="stylesheet" href="./../css/animate.css">
+    <!-- script para el mapa, quitamos &callback=initMap -->
+    <!-- generar api-key en google -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnZzdYNu8q7TN9PdX5XEmbJ2TIHYMC8cI"></script>
     <script src="./js/main.js"></script>
     <!-- <style>
     .rojo{
@@ -19,11 +22,61 @@
     }
     </style> -->
     <title>Document</title>
+    <style>
+    #map{
+        /* siempre tenemos que ponerle altura si no no funcionara el mapa */
+        height: 300px;
+    }
+    </style>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark animated slideInUp slow">
-        <a class="navbar-brand" href="#"><img src="./../images/logohga.png" class="animated slideInUp slow" alt="">
+<body style="background-color: #2980b9">
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modalMapa">
+        Launch
+      </button> -->
+      
+      <!-- Modal -->
+      <div class="modal fade" id="modalMapa" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                      <div class="modal-header">
+                              <h5 class="modal-title">Modal title</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                  </button>
+                          </div>
+                  <div class="modal-body">
+                      <div class="container-fluid">
+                          <!-- aqui estara el mapa -->
+                        <div id="map">
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <!-- <script>
+          $('#exampleModal').on('show.bs.modal', event => {
+              var button = $(event.relatedTarget);
+              var modal = $(this);
+              // Use above variables to manipulate the DOM
+              
+          });
+      </script> -->
+      
+      
+      <!-- <img src="./../images/logohga.png" class="animated slideInUp slow" alt=""> -->
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary animated slideInUp slow">
+        <a class="navbar-brand" href="#">
             Navbar</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
@@ -51,9 +104,32 @@
         </div>
     </nav>
     <main class="container mt-5">
+        <!-- div cargando -->
         <div class="alert alert-success text-center animated fadeIn slow" hidden id="divCarga">
-            <h1 class="alert-heading">Cargando resultados</h1>
+            <h1 class="alert-heading">Cargando resultados...</h1>
             <i class="fa fa-refresh fa-4x  fa-spin" aria-hidden="true"></i>
+        </div>
+        <!-- div sin resultados -->
+        <div class="alert alert-info text-center animated shake faster"  hidden id="divVacio">
+            <h1 class="display-4">No hay resultados...</h1>
+            <!-- <i class="fa fa-refresh fa-4x  fa-spin" aria-hidden="true"></i> -->
+            <i class="fas fa-sad-cry  fa-5x"></i>
+        </div>
+        <div id="contenedorTabla" hidden>
+            <table class="table w-100 table-primary">
+                <thead>
+                    <th>Nro.</th>
+                    <th>Nombre</th>
+                    <th>Tipo</th>
+                    <th>Pais</th>
+                    <th>Longitud</th>
+                    <th>Latitud</th>
+                    <th>Acciones</th>
+                </thead>
+                <tbody id="cuerpo">
+
+                </tbody>
+            </table>
         </div>
     </main>
     <!-- <button class="btn btn-info">
@@ -75,3 +151,8 @@
 </body>
 
 </html>
+
+
+
+
+
