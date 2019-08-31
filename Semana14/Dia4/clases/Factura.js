@@ -18,9 +18,10 @@ class Factura extends Comprobante{
         for(let i=0;i<this.comprobante_detalle.length;i++){
             // total+=this.calcularSubTotal(this.comprobante_detalle[i].cantidad,this.comprobante_detalle[i].prec_unit)
 
-            let cantidad=this.comprobante_detalle[i].cantidad:
-            let precio_unit=this.comprobante_detalle[i].prec_unit;
-            total+=this.calcularSubTotal(cantidad,prec_unit);
+            let cantidad=this.comprobante_detalle[i].detalle_cant;
+            let precio_unit=this.comprobante_detalle[i].detalle_punit;
+            total+=this.calcularSubTotal(cantidad,precio_unit);
+            // console.log("com "+ total);
         }
         this.factura_igv_total=total*this.factura_igv_porcentaje/100;
         this.comprobante_total=total;

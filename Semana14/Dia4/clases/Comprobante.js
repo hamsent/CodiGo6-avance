@@ -14,6 +14,7 @@
      comprobante_fecha=new Date();
      comprobante_total=0;
      comprobante_detalle=[];
+
      constructor(comp_id,comp_fecha){
         this.comprobante_id=comp_id;
         this.comprobante_fecha=comp_fecha;
@@ -29,7 +30,13 @@
         console.log(this.comprobante_fecha);
     }
 
+    mostrarComrobante(){
+        // solo this, hace referencia al objeto que se acava de crear
+        console.log("Resumen comprobante", this);
+    }
+
     calcularSubTotal(cantidad,precio_unit){
+      
         return cantidad*precio_unit;
     }
  }
