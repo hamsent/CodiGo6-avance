@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\bin\Debug\netcoreapp2.1\ConexionDB_6.deps.json
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\bin\Debug\netcoreapp2.1\ConexionDB_6.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\bin\Debug\netcoreapp2.1\ConexionDB_6.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\bin\Debug\netcoreapp2.1\ConexionDB_6.dll
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\obj\Debug\netcoreapp2.1\ConexionDB_6.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\obj\Debug\netcoreapp2.1\ConexionDB_6.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\obj\Debug\netcoreapp2.1\ConexionDB_6.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\obj\Debug\netcoreapp2.1\ConexionDB_6.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\bin\Debug\netcoreapp2.1\ConexionDB_6.pdb
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\obj\Debug\netcoreapp2.1\ConexionDB_6.dll
+D:\Ronald\CodiGo6-avance\Semana15\Dia2\ConexionDB_6\ConexionDB_6\obj\Debug\netcoreapp2.1\ConexionDB_6.pdb
