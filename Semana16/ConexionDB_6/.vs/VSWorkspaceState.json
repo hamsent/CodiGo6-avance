@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controladores",
     "\\Entidades"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\Entidades\\Usuario.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,11 @@
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.deps.json
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.dll
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.pdb
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.dll
+D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.pdb
