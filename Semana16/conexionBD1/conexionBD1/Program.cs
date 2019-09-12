@@ -23,7 +23,55 @@ namespace ConexionDB_6
             Usuario usu = new Usuario() { Correo = correoLogeo, Contraseña =passwordLogeo };
             cUsuario.Login(usu);
 
-            //cUsuario.InsertarUsuario(new Usuario() { Nombre = "Yo", Clave = "666" });
+            //Console.WriteLine("INGRESE SU CORREO");
+            //string correoNuevo = Console.ReadLine();
+
+            //Console.WriteLine("INGRESE SU PASSWORD");
+            //string contraseñaNuevo = Console.ReadLine();
+
+            //Console.WriteLine("INGRESE SU NOMBRE");
+            //string nombreNuevo = Console.ReadLine();
+
+            //Console.WriteLine("INGRESE SU FECHA DE NACIMIENTO");
+            //DateTime fechaNuevo = Convert.ToDateTime(Console.ReadLine());
+
+            //Console.WriteLine("INGRESE PRIVILEGIO I(INVITADO) O A(ADMINISTRADOR)  ");
+            //char priNuevo = Convert.ToChar(Console.ReadLine());
+
+            //cUsuario.InsertarUsuario(new Usuario() { Correo = correoNuevo, Contraseña = contraseñaNuevo, Nombre1 = nombreNuevo, Fecha_naci = fechaNuevo, Privilegios = priNuevo });
+
+            //bool condition = true;
+
+            //if ()
+            //{
+            //    Console.WriteLine("The variable is set to true.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The variable is set to false.");
+            //}
+            //String numero;
+            //switch (num)
+            //{
+            //    case 1:
+            //        numero = "uno";
+            //        break;
+            //    case 2:
+            //        numero = "dos";
+            //        break;
+            //    case 3:
+            //        numero = "tres";
+            //        break;
+            //    case 4:
+            //        numero = "cuatro";
+            //        break;
+            //    case 5:
+            //        numero = "cinco";
+            //        break;
+            //    default:
+            //        numero = "error";
+            //        break;
+            //}
 
 
 
