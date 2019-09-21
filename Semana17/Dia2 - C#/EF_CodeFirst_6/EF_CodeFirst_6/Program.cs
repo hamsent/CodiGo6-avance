@@ -43,6 +43,7 @@ namespace EF_CodeFirst_6
                 {
                     Console.WriteLine(a.nombre + " " + a.ponderado);
                 }
+
             }
         }
     }

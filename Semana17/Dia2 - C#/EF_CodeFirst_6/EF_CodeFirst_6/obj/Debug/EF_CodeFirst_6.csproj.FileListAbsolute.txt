@@ -10,5 +10,3 @@ D:\Ronald\CodiGo6-avance\Semana17\Dia2 - C#\EF_CodeFirst_6\EF_CodeFirst_6\obj\De
 D:\Ronald\CodiGo6-avance\Semana17\Dia2 - C#\EF_CodeFirst_6\EF_CodeFirst_6\obj\Debug\EF_CodeFirst_6.csproj.CopyComplete
 D:\Ronald\CodiGo6-avance\Semana17\Dia2 - C#\EF_CodeFirst_6\EF_CodeFirst_6\obj\Debug\EF_CodeFirst_6.exe
 D:\Ronald\CodiGo6-avance\Semana17\Dia2 - C#\EF_CodeFirst_6\EF_CodeFirst_6\obj\Debug\EF_CodeFirst_6.pdb
-D:\Ronald\CodiGo6-avance\Semana17\Dia2 - C#\EF_CodeFirst_6\EF_CodeFirst_6\obj\Debug\EF_CodeFirst_6.Migrations.MigracionInicial.resources
-D:\Ronald\CodiGo6-avance\Semana17\Dia2 - C#\EF_CodeFirst_6\EF_CodeFirst_6\obj\Debug\EF_CodeFirst_6.csproj.GenerateResource.cache

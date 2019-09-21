@@ -13,7 +13,7 @@ namespace EF_CodeFirst_6
         public ColegioContext() : base("name=ConexionColegio")
         {
             Database.SetInitializer
-                (new CreateDatabaseIfNotExists<ColegioContext>());
+                (new DropCreateDatabaseAlways <ColegioContext>());
         }
         public DbSet<Alumno> Alumnos { get; set; }
         public DbSet<Direccion> Direcciones { get; set; }
