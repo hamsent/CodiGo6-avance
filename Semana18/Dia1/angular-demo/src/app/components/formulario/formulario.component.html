@@ -1,0 +1,19 @@
+<h5>{{title}}</h5>
+<hr>
+<label for="">Nombre:</label>
+{{producto.id}}
+{{producto.nombre}}
+{{producto.descripcion}}
+
+<input type="text" class="form-control" [(ngModel)]='producto.id'><hr>
+<input type="text" class="form-control" [(ngModel)]='producto.nombre'><hr>
+<input type="text" class="form-control" [(ngModel)]='producto.descripcion'><hr>
+<button class="btn btn-primary" (click)="miFuncion()">Dame Click!</button><hr>
+
+<ul>
+    <li *ngFor="let producto of arrayProductos" (click)="seleccionarProducto(producto)">
+    Nombre: {{producto.nombre}}
+    </li>
+</ul>
+
+<app-producto-detalle [producto]="productoSeleccionado"></app-producto-detalle>

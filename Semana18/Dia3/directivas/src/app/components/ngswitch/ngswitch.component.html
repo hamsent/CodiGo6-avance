@@ -1,0 +1,14 @@
+<!-- <p>ngswitch works!</p> -->
+<main>
+    <span [ngSwitch]="alerta">
+    <p *ngSwitchCase="danger" [ngStyle]="{'color':'red'}">
+        Coincide con Danger
+    </p>
+    <p *ngSwitchCase="success" [ngStyle]="{'color':'green'}">
+        Coincide con success
+    </p>
+    <p *ngSwitchDefault>
+        No hay coincidencias
+    </p>
+    </span>
+</main>

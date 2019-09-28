@@ -1,0 +1,16 @@
+<h5>Ingrese el Usuario</h5>
+<table class="table table-striped table-dark col-6" align="center">
+    <tr>
+        <td>Nombres: </td>
+        <td><input type="text" [(ngModel)]="usuario.nombres"></td>
+    </tr>
+    <tr>
+        <td>Apellidos: </td>
+        <td><input type="text" [(ngModel)]="usuario.apellidos"></td>
+    </tr>
+    <tr>
+        <td>DNI: </td>
+        <td><input type="number" [(ngModel)]="usuario.dni"></td>
+    </tr>
+</table>
+<button class="btn btn-primary" (click)="anadirUsuario()">Añadir Usuario</button>

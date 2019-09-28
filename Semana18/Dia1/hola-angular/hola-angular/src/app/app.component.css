@@ -1,0 +1,11 @@
+h2, p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+app-footer{
+width: 100%;
+height: 50px;
+border: 1px solid red;
+position: absolute;
+bottom: 0px;
+}

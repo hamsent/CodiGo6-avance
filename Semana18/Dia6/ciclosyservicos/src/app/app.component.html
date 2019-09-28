@@ -1,0 +1,11 @@
+<h1>Ciclos y Servicios</h1>
+<ng-container *ngIf="validado; else Alerta">
+  <strong>Ud. ha accedido correctamente</strong>
+  <app-main></app-main>
+</ng-container>
+<ng-template #Alerta>
+ <p class="text-danger font-weight-bold">
+   Ud. no tiene acceso al contenido!!!
+ </p>
+ 
+</ng-template>

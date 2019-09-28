@@ -1,0 +1,99 @@
+<p>formularios works!</p>
+<main>
+    <div class="fila-1">
+            <fieldset>
+                    <legend>Reserva de Ambientes</legend>
+                <form action="">
+                    <div>
+                            <label for="">Nombres: </label>
+                            <input type="text" required #nombres name="inputNombres">
+                            <!-- siempre hay que poner la etique name  -->
+                             <!--cuando se usa el # es oblicatorio usar la etiqueta nombre  -->
+                    </div>
+                    <div>
+                            <label for="">Apellidos: </label>
+                            <input type="text" #apellidos name="inputApellidos">
+                    </div>
+                    <div>
+                            <label for="">Fecha de Reserva: </label>
+                            <input type="text">
+                    </div>
+                    <div>
+                            <label for="">Hora de Reserva </label>
+                            <input type="date">
+                    </div>
+                    <div>
+                            <label for="">Hora de Reserva: </label>
+                            <input type="submit" value="Enviar Datos">
+                            <button (click)="imprimir(nombres,apellidos)">imprimir</button>
+                    </div>
+                </form>
+                </fieldset>
+                <hr> 
+                <fieldset>
+                    <legend>Formulario 2</legend>
+                    <form action="">
+                        <label for="">Apodo</label>
+                        <input type="text" #apodo required [ngModel] name="inputApodo">
+                        <br>
+                        <label for="">Pregunta</label>
+                        <input type="text" #pregunta [ngModel] name="inputPregunta">
+                        <br>
+                        <button (click)="imprimir2(apodo,pregunta)">Enviar Datos</button>
+                    </form>
+                </fieldset>
+    </div>
+    <div class="fila-2">
+        
+<fieldset>
+    <legend>Mascota</legend>
+<form>
+    <label for="">Raza : </label>
+    <input type="text" #raza="ngModel" name="raza" required [ngModel] >
+    <br>
+    <label for="">Edad : </label>
+    <input type="number" #edad="ngModel" min="0" max="20" name="edad" required [ngModel]>
+    <!-- #edad="ngModel" al poner "ngModel" podemos ver sus eventos-->
+    <br>
+    <button (click)="imprimir3(raza,edad)" [disabled]="!raza.valid">Registrar Mascota</button>
+</form>
+</fieldset>
+
+<hr>
+        <fieldset>
+            <legend>Registrar Canción</legend>
+            <form #formulario="ngForm"
+                (ngSubmit)="registrarCancion(formulario)">
+                
+                <label for="inputAutor">Autor:</label>
+                <input type="text" 
+                        [ngModel] 
+                        #autor="ngModel" 
+                        name="autor" 
+                        required>
+                <br>
+                <label for="">Canción:</label>
+                <input type="text"
+                    [(ngModel)]="data.miCancion"
+                    #cancion="ngModel"
+                    name="cancion"
+                    required
+                    >
+                <br>
+                <label for="">Genero:</label>
+                <input type="text"
+                    [(ngModel)]="data.miGenero"
+                    #genero="ngModel"
+                    name="genero"
+                    required
+                    >
+
+                <button
+                    type="submit">
+                    REGISTRAR
+                </button>
+            </form>
+
+        </fieldset>
+    </div>
+</main>
