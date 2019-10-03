@@ -1,0 +1,12 @@
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\bin\Debug\trabajo.exe.config
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\bin\Debug\trabajo.exe
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\bin\Debug\trabajo.pdb
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\bin\Debug\EntityFramework.dll
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\bin\Debug\EntityFramework.xml
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\obj\Debug\trabajo.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\obj\Debug\trabajo.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\obj\Debug\trabajo.csproj.CopyComplete
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\obj\Debug\trabajo.exe
+D:\Ronald\CodiGo6-avance\Semana19\trabajo\trabajo\obj\Debug\trabajo.pdb
