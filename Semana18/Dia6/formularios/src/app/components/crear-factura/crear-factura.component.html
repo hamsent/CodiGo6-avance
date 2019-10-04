@@ -1,0 +1,44 @@
+<main class="container mt-5">
+    <section>
+        <h2 class="display-4">Crear Factura</h2>
+        <form action="" class="mt-4 animated slideInleft" #formulario="ngForm">
+            <!-- #formulario="ngForm" se coloca esto  para mantener el boton desactivado mientras los campos llenados no esten correctos -->
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="">Nro de Factura</label>
+                        <input type="text" requered class="form-control" required [(ngModel)]="objFactura.fact_nro" name="fact_nro" placeholder="F001-00045">
+                        <!-- tiene quye tener el atributo name si o si, no importa el nombre que se le ponga  -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="">Razon Social: </label>
+                        <input type="text" class="form-control" required [(ngModel)]="objFactura.fact_rz" name="fact_rz" placeholder="Hamsent SAC">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="">Fecha de Facturacion: </label>
+                        <input type="date" class="form-control" required  > 
+                    </div>
+                    <div class="col-md-6">
+                        <label for="">RUC: </label>
+                        <input type="text" maxlength="11" minlength="11" class="form-control" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-block btn-lg btn-dark" [disabled]="!formulario.valid"><i class="fas fa-save"></i> Registrar factura 
+
+                </button>
+            </div>
+        </form>
+    </section>
+</main>
