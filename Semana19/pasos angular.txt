@@ -1,0 +1,24 @@
+
+instalar angular cli para tener el comando NG disponible en todo el equipp
+
+npm install -g @angular/cli
+
+ng new nombre
+
+ng serve --port=4390
+
+ng g c components/ngclass
+
+ng g c components/ngclass --skipTests para que no se cree el archivo de pruebas .spec.ts
+
+
+ng g c components/ngclass --dryRun ó --dry-run previsualiza los posibles cambios 
+
+moment.js libreria para calcula fechas
+
+para iniciar el sistema de ve
+
+
+comando para crear pipe
+store>ng generate pipe pipes/moneda o ng g p  pipes/moneda 
+ 

@@ -1,0 +1,12 @@
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\bin\Debug\Colegio_6.exe.config
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\bin\Debug\Colegio_6.exe
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\bin\Debug\Colegio_6.pdb
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\bin\Debug\EntityFramework.dll
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\bin\Debug\EntityFramework.xml
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\obj\Debug\Colegio_6.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\obj\Debug\Colegio_6.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\obj\Debug\Colegio_6.csproj.CopyComplete
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\obj\Debug\Colegio_6.exe
+D:\Ronald\CodiGo6-avance\Semana19\Colegio_6\Colegio_6\obj\Debug\Colegio_6.pdb
