@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -117,14 +118,81 @@ namespace LINQ_6
 
                 var clientX = context.orders.Find(1).order_items;
 
+                // EAGER LOAD
+
+                var clientesConOrdenes = from c in context.customers.Include(x=>x.orders)
+                                         select c;
+
+                var ClientesConOrdenesX = context.customers.Include(x => x.orders);
+                foreach(var cliente in clientesConOrdenes)
+                {
+                    Console.WriteLine(cliente.first_name);
+                    foreach(var order in cliente.orders)
+                    {
+                        Console.WriteLine(order.order_status);
+                    }
+                }
 
 
+                //MOSTRAR EL NOMBRE DEL PRODUCTO Y SU CATEGORIA AL COSTADO USANDO EAGER LOAD(INCLUDE)
 
 
+                var productoConCtegoria= from p in context.products.Include(x => x.category)
+                                         select p;
+
+                var productoConCtegoriaX = context.products.Include(x => x.category);
+                foreach (var producto in productoConCtegoria)
+                {
+                    Console.WriteLine(producto.product_name + ", CATEGORIA:  "+producto.category.category_name);
+                
+                }
+
+                // mostrar un empleado con su respectivo JEFE DE la siguiente forma osmar, Jefe: jorge
+
+                var empleadoConJefe = from emp in context.staffs.Include(x=>x.staff1)
+                               select emp;
+                //var empleadoJEFEX = context.products.Include(x=>);
+                foreach(var empleado in empleadoConJefe)
+                {
+                    if (empleado.staff1==null)
+                        Console.WriteLine(empleado.first_name + ", Jefe Supremo");
+                    else
+                    Console.WriteLine(empleado.first_name+", jefe: "+empleado.staff1.first_name);
+                }
 
 
+                // MOSTRAR UN EMPLEADO CON SUS SUBORDINADOS
 
+                var empleadoConSubordinados = context.staffs.Include(x => x.staffs1);
 
+                foreach (var empleado in empleadoConSubordinados)
+                {
+
+                    //Console.WriteLine(empleado.first_name + "\nSubordinados:");
+                    //if (!empleado.staffs1.Any())
+                    //   Console.WriteLine("No tiene.");
+                    //foreach (var subordinado in empleado.staffs1) 
+                    //{
+                    //   Console.WriteLine(" - " + subordinado.first_name);
+                    //}
+                }
+
+                // MOSTRAR LAS MARCAS CON TODOS SUS PRODUCTOS QUE 
+                // SEAN DEL AÑO 2016, SI NO HAY QUE MUESTRE "SIN PRODUCTOS"
+
+                var marcasConSusProductos = context.brands.Include(x => x.products);
+                foreach (var marca in marcasConSusProductos)
+                {
+                    Console.WriteLine(marca.brand_name);
+                    var productosDel2016 =
+                       marca.products.Where(x => x.model_year == 2016);
+                    if (!productosDel2016.Any())
+                        Console.WriteLine("No hay productos");
+                    foreach (var item in productosDel2016)
+                    {
+                        Console.WriteLine(item.product_name);
+                    }
+                }
 
 
 

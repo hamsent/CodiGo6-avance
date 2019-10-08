@@ -1,0 +1,16 @@
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\bin\Debug\CodeFirstWithDataBase.exe.config
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\bin\Debug\CodeFirstWithDataBase.exe
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\bin\Debug\CodeFirstWithDataBase.pdb
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\bin\Debug\EntityFramework.dll
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\bin\Debug\EntityFramework.xml
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\obj\Debug\CodeFirstWithDataBase.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\obj\Debug\CodeFirstWithDataBase.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\obj\Debug\CodeFirstWithDataBase.csproj.CopyComplete
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\obj\Debug\CodeFirstWithDataBase.exe
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\obj\Debug\CodeFirstWithDataBase.pdb
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\obj\Debug\CodeFirstWithDataBase.Migrations.Inicial.resources
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\obj\Debug\CodeFirstWithDataBase.csproj.GenerateResource.cache
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\obj\Debug\CodeFirstWithDataBase.Migrations.CreaTablaAlumnos.resources
+D:\Ronald\CodiGo6-avance\Semana20\Dia1\CodeFirstWithDataBase\CodeFirstWithDataBase\obj\Debug\CodeFirstWithDataBase.Migrations.AgregaApodoTablaAlumno.resources
