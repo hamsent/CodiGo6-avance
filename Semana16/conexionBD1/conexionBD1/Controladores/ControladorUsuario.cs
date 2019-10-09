@@ -15,12 +15,12 @@ namespace ConexionDB_6.Controladores
 
         public void InsertarUsuario(Usuario usuario)
         {
-            con.AbrirConexion();  // ANTES DE HACER CONSULTAS, ABRIR CONEXION
+            //con.AbrirConexion(); // ANTES DE HACER CONSULTAS, ABRIR CONEXION
             cmd = new SqlCommand
                ($"INSERT INTO USUARIOS (CORREO, CONTRASEÑA, NOMBRE,FECHA_NACI, PRIVILEGIOS) " +
                $"VALUES ('{usuario.Correo}', '{usuario.Contraseña}','{usuario.Nombre1}','{usuario.Fecha_naci}','{usuario.Privilegios}')",
                con.GetConexion());  // METODO GETCONEXION OBTIENE SqlConnection
-         
+
             cmd.ExecuteNonQuery();  // EJECUCIÓN DE LA INSTRUCCIÓN
             con.CerrarConexion();
         }
@@ -68,7 +68,7 @@ namespace ConexionDB_6.Controladores
                     privilegios = "INVITADO";
 
 
-                Console.WriteLine("*****ACCESO CORRECTO***\t\t" + reader[0]+ " ERES BIENVENIDO \t\t\t\t ERES UN USUARIOS "+privilegios);
+                Console.WriteLine("*****ACCESO CORRECTO***\t\t" + reader[0]+ " ERES BIENVENIDO \t\t\t\t\t\t USUARIO " + privilegios);
                 
                 Console.WriteLine("*********ELIJA LA OPRERACION A REALIZAR**********");
                 Console.WriteLine("1. CREAR USUARIOS");

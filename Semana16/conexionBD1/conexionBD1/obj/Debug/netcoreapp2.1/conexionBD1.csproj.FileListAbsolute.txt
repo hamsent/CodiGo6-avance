@@ -9,3 +9,14 @@ D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.
 D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.csprojAssemblyReference.cache
 D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.dll
 D:\Ronald\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.pdb
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.dll
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.pdb
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.deps.json
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.runtimeconfig.json
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.runtimeconfig.dev.json
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.dll
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\bin\Debug\netcoreapp2.1\conexionBD1.pdb
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.csprojAssemblyReference.cache
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.csproj.CoreCompileInputs.cache
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.AssemblyInfoInputs.cache
+C:\Users\Spartacus\Documents\GitHub\CodiGo6-avance\Semana16\conexionBD1\conexionBD1\obj\Debug\netcoreapp2.1\conexionBD1.AssemblyInfo.cs

@@ -11,6 +11,7 @@ ng g c components/ngclass
 
 ng g c components/ngclass --skipTests para que no se cree el archivo de pruebas .spec.ts
 
+ng g service facturas crear servicio
 
 ng g c components/ngclass --dryRun ó --dry-run previsualiza los posibles cambios 
 

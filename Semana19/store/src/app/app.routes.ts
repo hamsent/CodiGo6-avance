@@ -1,4 +1,4 @@
-import {RouterModule, Routes} from '@angular/router'; // debemos de importar estos 
+import {RouterModule, Routes, Router} from '@angular/router'; // debemos de importar estos 
 import {ListadoComponent} from './listado/listado.component';
 import {CarritoComponent} from './carrito/carrito.component';
 // paso 1

@@ -9,8 +9,8 @@ namespace ConexionDB_6
     class ConexionBD
     {
         SqlConnection con;
-        string cadenaConexion = "Data source = .\\SQLEXPRESS; " +
-              "Initial catalog = BikeStores;" +
+        string cadenaConexion = "Data source = DESKTOP-NTF0Q7F; " +
+              "Initial catalog = Sisfac;" +
               "Integrated security = true;";
 
         public ConexionBD()
