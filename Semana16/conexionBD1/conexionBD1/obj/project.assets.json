@@ -1175,23 +1175,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mañana\\.nuget\\packages\\": {},
+    "C:\\Users\\Spartacus\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ronald\\CodiGo6-avance\\Semana16\\conexionBD1\\conexionBD1\\conexionBD1.csproj",
+      "projectUniqueName": "C:\\Users\\Spartacus\\Documents\\GitHub\\CodiGo6-avance\\Semana16\\conexionBD1\\conexionBD1\\conexionBD1.csproj",
       "projectName": "conexionBD1",
-      "projectPath": "D:\\Ronald\\CodiGo6-avance\\Semana16\\conexionBD1\\conexionBD1\\conexionBD1.csproj",
-      "packagesPath": "C:\\Users\\mañana\\.nuget\\packages\\",
-      "outputPath": "D:\\Ronald\\CodiGo6-avance\\Semana16\\conexionBD1\\conexionBD1\\obj\\",
+      "projectPath": "C:\\Users\\Spartacus\\Documents\\GitHub\\CodiGo6-avance\\Semana16\\conexionBD1\\conexionBD1\\conexionBD1.csproj",
+      "packagesPath": "C:\\Users\\Spartacus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Spartacus\\Documents\\GitHub\\CodiGo6-avance\\Semana16\\conexionBD1\\conexionBD1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mañana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Spartacus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
