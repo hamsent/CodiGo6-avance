@@ -16,6 +16,7 @@ namespace CodeFirstWithDataBase.Migrations
         {
             RenameColumn("dbo.Alumnos", "sobrenombre","apodo");
             //AddColumn("dbo.Alumnos", "apodo", c => c.String());
+            //Sql("UPDATE dbo.Alumnos SET apodo")
             //DropColumn("dbo.Alumnos", "sobrenombre");
         }
     }

@@ -10,14 +10,14 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
                 <div class="modal-header">
-                        <h5 class="modal-title">Modal title</h5>
+                        <h5 class="modal-title">EDITAR REGISTRO</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                     </div>
             <div class="modal-body">
                 <div class="container-fluid">
-                    <form action="" class="mt-4 animated slideInleft" #formulario="ngForm">
+                    <form action="" class="mt-4 animated fadeIn" #formulario="ngForm">
                         <!-- #formulario="ngForm" se coloca esto  para mantener el boton desactivado mientras los campos llenados no esten correctos -->
                         <div class="form-group">
 
@@ -57,22 +57,23 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-block btn-lg btn-dark" [disabled]="!formulario.valid" (click)="crearFactura()"><i class="fas fa-save"></i> Registrar factura 
-            
+                            <button type="submit" class="btn btn-block btn-lg btn-info" [disabled]="!formulario.valid" (click)="guardarCambios()"><i class="fas fa-save"></i>Guardar Cambios 
                             </button>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="modal-footer">
+            <!-- <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary">Save</button>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
 
 <main class="container mt-5">
+    <button class="btn btn-danger" *ngIf="facturasSeleccionadas.length>0" (click)="eliminarFacturas()">Eliminar Factura</button>
+    <!-- paso 8 click -->
     <div>
         <div class="alert alert-success text-center" role="alert" *ngIf="!facturas">
             <h4  class="alert-heading">Cargando...</h4>
@@ -83,9 +84,11 @@
         </div>
         <div *ngIf="facturas" class="animated fadeIn slideInLeft">
          
-                <table class="table">
+                <table class="table table-hover">
                     <thead class="thead-danger">
                         <tr>
+                            <th>Sel.</th> 
+                            <!-- paso1 -->
                             <th>ID</th>
                             <th>RAZÓN SOCIAL</th>
                             <th>NÚMERO DE FACTURA</th>
@@ -96,6 +99,8 @@
                     </thead>
                     <tbody>
                         <tr *ngFor="let f of facturas">
+                            <td><input type="checkbox" class="form-control" (change)="seleccionarFactura($event, f)"></td>
+                            <!-- paso 1 -->
                             <td>{{f.id}}</td>
                             <td>{{f.fact_rz}}</td>
                             <td>{{f.fact_nro}}</td>

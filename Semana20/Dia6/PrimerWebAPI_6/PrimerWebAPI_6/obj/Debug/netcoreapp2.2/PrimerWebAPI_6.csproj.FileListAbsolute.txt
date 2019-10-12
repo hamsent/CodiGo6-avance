@@ -1,0 +1,14 @@
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\bin\Debug\netcoreapp2.2\PrimerWebAPI_6.deps.json
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\bin\Debug\netcoreapp2.2\PrimerWebAPI_6.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\bin\Debug\netcoreapp2.2\PrimerWebAPI_6.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\bin\Debug\netcoreapp2.2\PrimerWebAPI_6.dll
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\bin\Debug\netcoreapp2.2\PrimerWebAPI_6.pdb
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\obj\Debug\netcoreapp2.2\PrimerWebAPI_6.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\obj\Debug\netcoreapp2.2\PrimerWebAPI_6.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\obj\Debug\netcoreapp2.2\PrimerWebAPI_6.RazorAssemblyInfo.cache
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\obj\Debug\netcoreapp2.2\PrimerWebAPI_6.RazorAssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\obj\Debug\netcoreapp2.2\PrimerWebAPI_6.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\obj\Debug\netcoreapp2.2\PrimerWebAPI_6.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\obj\Debug\netcoreapp2.2\PrimerWebAPI_6.RazorTargetAssemblyInfo.cache
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\obj\Debug\netcoreapp2.2\PrimerWebAPI_6.dll
+D:\Ronald\CodiGo6-avance\Semana20\Dia6\PrimerWebAPI_6\PrimerWebAPI_6\obj\Debug\netcoreapp2.2\PrimerWebAPI_6.pdb
