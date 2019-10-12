@@ -1,7 +1,82 @@
+<!-- colocamos el modal -->
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#modelId">
+  Launch
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="modalEditar" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+                <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form action="" class="mt-4 animated slideInleft" #formulario="ngForm">
+                        <!-- #formulario="ngForm" se coloca esto  para mantener el boton desactivado mientras los campos llenados no esten correctos -->
+                        <div class="form-group">
+
+                            <div class="row">
+                                    <div class="col-md-6">
+                                            <label for="">ID de Factura</label>
+                                            <input type="text" requered class="form-control" required [(ngModel)]="objFactura.id" name="id" disabled>
+                                            <!-- tiene quye tener el atributo name si o si, no importa el nombre que se le ponga  -->
+                                        </div>
+                                <div class="col-md-6">
+                                    <label for="">Nro de Factura</label>
+                                    <input type="text" requered class="form-control" required [(ngModel)]="objFactura.fact_nro" name="fact_nro" placeholder="F001-00045">
+                                    <!-- tiene quye tener el atributo name si o si, no importa el nombre que se le ponga  -->
+                                </div>
+                            </div>
+                        </div>
+            
+            
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label for="">Razon Social: </label>
+                                    <input type="text" class="form-control" required [(ngModel)]="objFactura.fact_rz" name="fact_rz" placeholder="Hamsent SAC">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="">Fecha de Facturacion: </label>
+                                    <input type="date" class="form-control" required [(ngModel)]="objFactura.fact_fech" name="fact_fech" > 
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="">RUC: </label>
+                                    <input type="text" maxlength="11" minlength="11" class="form-control" required [(ngModel)]="objFactura.fact_ruc" name="fact_ruc">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-block btn-lg btn-dark" [disabled]="!formulario.valid" (click)="crearFactura()"><i class="fas fa-save"></i> Registrar factura 
+            
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <main class="container mt-5">
     <div>
         <div class="alert alert-success text-center" role="alert" *ngIf="!facturas">
             <h4  class="alert-heading">Cargando...</h4>
+            
             <p>
                 <i class="fa fa-refresh fa-3x fa-spin" aria-hidden="true"></i>
             </p>
@@ -16,6 +91,7 @@
                             <th>NÚMERO DE FACTURA</th>
                             <th>RUC</th>
                             <th>FECHA DE COMPRA</th>
+                            <th>ACTIONS</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -25,6 +101,9 @@
                             <td>{{f.fact_nro}}</td>
                             <td>{{f.fact_ruc}}</td>
                             <td>{{f.fact_fech}}</td>
+                            <td style="display: flex;"> <button class="btn btn-danger" (click)="eliminarFactura(f.id)"><i class="fa fa-trash" aria-hidden="true"></i> </button>
+                                <button class="btn btn-info ml-2" (click)="abrirModalEditar(f.id)"> <i class="fas fa-pencil-alt    "></i> </button></td>
+
                         </tr>
                         <tr>
                             <td scope="row"></td>
@@ -36,7 +115,7 @@
            
         </div>
     </div>
-    <button class="btn btn-dark btnCrear animated bounce infinite slow" (click)="crearFactura()">
+    <button class="btn btn-success btnCrear animated bounce infinite slow" (click)="crearFactura()">
         <i class="fa fa-plus fa-2x" aria-hidden="true"></i>
     </button>
 </main>

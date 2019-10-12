@@ -30,4 +30,7 @@ export class FacturasService {
     return this._sHttp.post(`${URL_BACKEND}/facturas`,objFacturaString,{headers: misHeaders});
                         
   }
+  deleteFactura(id): Observable<any>{
+    return this._sHttp.delete(`${URL_BACKEND}/facturas/${id}`);
+  }
 }

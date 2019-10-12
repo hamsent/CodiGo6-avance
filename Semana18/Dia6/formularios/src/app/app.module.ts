@@ -16,6 +16,7 @@ import { VerFacturaComponent } from './components/ver-factura/ver-factura.compon
 // importamos el modulo de los formularios
 import {FormsModule} from '@angular/forms'
 
+
 @NgModule({
   declarations: [
     AppComponent,
