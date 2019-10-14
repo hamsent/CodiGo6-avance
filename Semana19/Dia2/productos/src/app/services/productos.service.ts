@@ -3,12 +3,14 @@ import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { URL_BACKEND} from './../../environments/environment.prod';
 
+import { forkJoin } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductosService {
-
+  arregloRespuestas: Array<any> = [];
+  arregloTmp: Array<any> = [];
   constructor(private _sHttp: HttpClient) { }
 
   getProductos(): Observable<any> {
@@ -23,6 +25,9 @@ export class ProductosService {
     return this._sHttp.post(`https://5d4b6ade00dbb10014879b1b.mockapi.io/Tiendita`, objProductoString, { headers: misHeaders });
     // return this._sHttp.post(`${URL_BACKEND}/facturas`, objFacturaString, { headers: misHeaders });
 
+  }
+  deleteProducto(id): Observable<any> {
+    return this._sHttp.delete(`https://5d4b6ade00dbb10014879b1b.mockapi.io/Tiendita/${id}`);
   }
 
   getProductoById(id): Observable<any> {
@@ -39,4 +44,18 @@ export class ProductosService {
     return this._sHttp.put(`https://5d4b6ade00dbb10014879b1b.mockapi.io/Tiendita/${objProducto.prod_id}`, objProductoString, { headers: misHeaders });
     // return this._sHttp.put(`${URL_BACKEND}/facturas/${objFactura.id}`, objFacturaString, { headers: misHeaders });
   }
+
+  deleteProductos(arregloProductos): Observable<any> {
+    arregloProductos.forEach(producto => {
+      // console.log(this.deleteFactura);
+      const respuesta = this._sHttp.delete(`https://5d4b6ade00dbb10014879b1b.mockapi.io/Tiendita/${producto.prod_id}`);
+      // const respuesta = this._sHttp.delete(`${URL_BACKEND}/facturas/${producto.prod_id}`);
+      // console.log(this.deleteFactura);
+    this.arregloRespuestas.push(respuesta);
+    this.arregloTmp=this.arregloRespuestas;
+    this.arregloRespuestas=[];
+    });
+    return forkJoin(this.arregloTmp); 
+   }
+
 }

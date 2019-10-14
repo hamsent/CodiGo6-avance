@@ -67,7 +67,7 @@ export class FacturasComponent implements OnInit, OnDestroy {
       if (result.value) {
         console.log(`Elimando el id ${id}`);
         this._sFacturas.deleteFactura(id).subscribe((rpta) => {
-
+          console.log(`Elimandfdsfsdddo el id ${id}`);
           // si la rsta tiene un id, quiere decir que fue completamente borrado
           if (rpta.id) {
             Swal.fire({

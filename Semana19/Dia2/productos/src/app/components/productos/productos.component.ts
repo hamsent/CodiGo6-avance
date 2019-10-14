@@ -25,6 +25,7 @@ export class ProductosComponent implements OnInit, OnDestroy {
     prod_stock: ''
   }
 
+  productosSeleccionadas: Array<any> = [];
   constructor(private _sProductos: ProductosService, private _sRouter: Router) { }
 
   ngOnInit() {
@@ -43,6 +44,40 @@ export class ProductosComponent implements OnInit, OnDestroy {
 
   crearProducto() {
     this._sRouter.navigate(['productos', 'crear']);
+  }
+
+  eliminarProducto(id) {
+    Swal.fire({
+      title: 'Estas seguro de Eliminar?',
+      text: 'El proceso no tiene vuelta atrás!!!',
+      type: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      cancelButtonText: 'No, Cancelar!',
+      confirmButtonText: 'Si, borrar'
+    }).then((result) => {
+      if (result.value) {
+        console.log(`Elimando el id ${id}`);
+        this._sProductos.deleteProducto(id).subscribe((rpta) => {
+          console.log(`Elimando asfsdfsael id ${id}`);
+          // si la rsta tiene un id, quiere decir que fue completamente borrado
+          if (rpta.prod_id) {
+            Swal.fire({
+              position: 'top-end',
+              type: 'success',
+              title: 'La factura ha sido borrada con éxito',
+              showConfirmButton: false,
+              timer: 1500
+
+            })
+            // luego llamamos a la funcion para volver a cargar el component
+            this.traerProductos();
+          }
+        })
+      }
+    })
+
   }
 
   abrirModalEditar(id) {
@@ -75,6 +110,22 @@ export class ProductosComponent implements OnInit, OnDestroy {
     })
   }
 
+
+  seleccionarProducto(evento, producto) {
+    // si esque mi checkboc esta seleccionado haremos algo
+    if (evento.target.checked) {
+      this.productosSeleccionadas.push(producto);
+      console.log(this.productosSeleccionadas);
+    } else { 
+      for (let i = 0; i < this.productosSeleccionadas.length; i++) {
+        if (producto.id === this.productosSeleccionadas[i].id) {
+          // array.splice(posicion,cont_elementos);
+          this.productosSeleccionadas.splice(i, 1);
+          console.log(this.productosSeleccionadas);
+        }
+      }
+    }
+  }
   guardarCambios() {
     // consumir el servicio para editar la factura
     this._sProductos.putProductoById(this.ObjProducto).subscribe((rpta) => {
