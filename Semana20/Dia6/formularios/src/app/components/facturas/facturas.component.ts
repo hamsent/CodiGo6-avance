@@ -4,7 +4,6 @@ import { Subscription } from 'rxjs';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 
-// para que typescript reconozca el singo $ de jquery
 declare var $: any;
 
 @Component({
@@ -15,8 +14,8 @@ declare var $: any;
 export class FacturasComponent implements OnInit, OnDestroy {
   facturas;
   subscriptor: Subscription;
+
   objFactura = {
-    // creamos este objeto para el formulario del modal
     id: '',
     fact_nro: '',
     fact_rz: '',
@@ -24,10 +23,8 @@ export class FacturasComponent implements OnInit, OnDestroy {
     fact_ruc: ''
   }
 
-  // paso 2
   facturasSeleccionadas: Array<any> = [];
-
-
+  
   constructor(private _sFacturas: FacturasService,
     private _sRouter: Router) { }
 
@@ -36,13 +33,16 @@ export class FacturasComponent implements OnInit, OnDestroy {
   }
 
   traerFacturas() {
-    this.subscriptor = this._sFacturas.getFacturas().subscribe((resultado) => {
-      this.facturas = resultado;
-    });
-    console.log(this.facturasSeleccionadas);
-    this.facturasSeleccionadas = [];
-    console.log(this.facturasSeleccionadas);
+    this.subscriptor = this._sFacturas.getFacturas()
+      .subscribe((resultado) => {
+        this.facturas = resultado;
+      });
+      console.log(this.facturasSeleccionadas)
+      this.facturasSeleccionadas = [];
+      console.log(this.facturasSeleccionadas)
   }
+
+
 
   ngOnDestroy() {
     this.subscriptor.unsubscribe();
@@ -52,23 +52,17 @@ export class FacturasComponent implements OnInit, OnDestroy {
     this._sRouter.navigate(['facturas', 'crear']);
   }
 
-
   eliminarFactura(id) {
     Swal.fire({
-      title: 'Estas seguro de Eliminar?',
-      text: 'El proceso no tiene vuelta atrás!!!',
+      title: 'ar yu chur?',
+      text: 'El proceso no tiene vuelta atrás!',
       type: 'warning',
+      confirmButtonText: 'Sí, borrar!',
       showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      cancelButtonText: 'No, Cancelar!',
-      confirmButtonText: 'Si, borrar'
+      cancelButtonText: 'No, cancelar!',
     }).then((result) => {
       if (result.value) {
-        console.log(`Elimando el id ${id}`);
         this._sFacturas.deleteFactura(id).subscribe((rpta) => {
-
-          // si la rsta tiene un id, quiere decir que fue completamente borrado
           if (rpta.id) {
             Swal.fire({
               position: 'top-end',
@@ -76,72 +70,59 @@ export class FacturasComponent implements OnInit, OnDestroy {
               title: 'La factura ha sido borrada con éxito',
               showConfirmButton: false,
               timer: 1500
-
-            })
-            // luego llamamos a la funcion para volver a cargar el component
+            });
             this.traerFacturas();
           }
         })
       }
     })
-
   }
 
   abrirModalEditar(id) {
-    // usamos jquery, typescript no reconoce el signo $ de jquery, show para mostrar hide para ocultar
-    // traer la factura dada su id
+    // antes de abrir el modal
+    // traer la factura dado su id
+    // console.time("demoreishon");
     Swal.fire({
       type: 'info',
-      // title: 'Espere un momentooooooooooooooooo',
-      // text: 'Esperando al servidor...',
-      html: '<h2 class="display-4">Espere un momento</h2> <i class="fa fa-refresh fa-3x fa-spin"></i><br/> <p>Esperando al servidor...</p>',
+      html: `<h2 class="display-4">Espere un momento<h2>
+              <i class="fa fa-refresh fa-3x fa-spin" ></i> <br/>
+              <p>Esperando al Servidor...</p>`,
       allowOutsideClick: false,
       showConfirmButton: false
-    })
+    });
 
-
-    console.time("demoreishon");
     this._sFacturas.getFacturaById(id).subscribe((rpta) => {
+      // console.timeEnd("demoreishon");
       Swal.close();
-      console.timeEnd("demoreishon");
       if (rpta.id) {
-
-        // la factura existe y ya llego
+        // la factura existe y ya llegó
         this.objFactura = rpta;
+
         $("#modalEditar").modal("show");
       }
     })
-
-
-
-
-
   }
-
   guardarCambios() {
     // consumir el servicio para editar la factura
     this._sFacturas.putFacturaById(this.objFactura).subscribe((rpta) => {
       if (rpta.id) {
         // factura correctamente editada
-        // volvemos a actualizar la lista de facturas  this.traerFacturas();
         this.traerFacturas();
-
         $("#modalEditar").modal("hide");
+
       }
     })
-
   }
 
-  // paso 3
-  seleccionarFactura(evento, factura) {
-    // si esque mi checkboc esta seleccionado haremos algo
-    if (evento.target.checked) {
+  seleccionarFactura(evento, factura){
+    if(evento.target.checked){
       this.facturasSeleccionadas.push(factura);
       console.log(this.facturasSeleccionadas);
-    } else { 
-      for (let i = 0; i < this.facturasSeleccionadas.length; i++) {
-        if (factura.id === this.facturasSeleccionadas[i].id) {
-          // array.splice(posicion,cont_elementos);
+    } else {
+      for (let i = 0; i < this.facturasSeleccionadas.length; i++){
+        if(factura.id === this.facturasSeleccionadas[i].id){
+          //array.splice(posicion,cant_elementos);
+      
           this.facturasSeleccionadas.splice(i, 1);
           console.log(this.facturasSeleccionadas);
         }
@@ -149,41 +130,33 @@ export class FacturasComponent implements OnInit, OnDestroy {
     }
   }
 
-  // paso 7
-
   eliminarFacturas(){
-    console.log("eliminarFacturas", this.facturasSeleccionadas)
+    console.log("eliminarFactras",this.facturasSeleccionadas)
     Swal.fire({
-      title: 'Estas seguro de cargarse estas facturas',
-      text: 'El proceso no tiene vuelta atrás!!!',
+      title: 'ar yu chur de cargarse estas facturas?',
+      text: 'El proceso no tiene vuelta atrás!',
       type: 'warning',
+      confirmButtonText: 'Sí, borrar!',
       showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
-      cancelButtonText: 'No, Cancelar!',
-      confirmButtonText: 'Si, borrar'
+      cancelButtonText: 'No, cancelar!',
     }).then((result) => {
       if (result.value) {
-        
         this._sFacturas.deleteFacturas(this.facturasSeleccionadas).subscribe((rpta) => {
-
-          // si la rsta tiene un id, quiere decir que fue completamente borrado
+          
           if (rpta[0].id) {
             Swal.fire({
               position: 'top-end',
               type: 'success',
-              title: 'Las facturas han sido borrada con éxito',
+              title: 'Las facturas ha sido borrada con éxito',
               showConfirmButton: false,
               timer: 1500
-
-            })
-            // luego llamamos a la funcion para volver a cargar el component
+            });
+            
             this.traerFacturas();
           }
           console.log(rpta);
         })
       }
     })
-
   }
 }

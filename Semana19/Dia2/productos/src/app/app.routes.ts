@@ -1,6 +1,7 @@
 import {RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from './components/home/home.component';
 import {ProductosComponent} from './components/productos/productos.component';
+import { CrearProductoComponent } from './components/crear-producto/crear-producto.component';
 
 
 const MIS_RUTAS: Routes = [
@@ -15,6 +16,10 @@ const MIS_RUTAS: Routes = [
 {
     path: 'productos',
     component: ProductosComponent
+},
+{
+    path: 'productos/crear',
+    component: CrearProductoComponent
 }
 ];
 

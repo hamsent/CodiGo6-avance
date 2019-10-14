@@ -16,11 +16,11 @@ import { forkJoin } from 'rxjs';
 export class FacturasService {
 
 // paso 6
-  arregoRespuestas: Array<any>=[];
-
+  arregloRespuestas: Array<any> = [];
+  arregloTmp: Array<any> = [];
 
   // facturas=['a','b','c'];
-  constructor(private _sHttp: HttpClient) { }
+  constructor(private _sHttp : HttpClient) { }
   getFacturas(): Observable<any> {
     // return new Promise((resolve,reject)=>{
     //   setTimeout(() => {
@@ -58,9 +58,13 @@ export class FacturasService {
   // paso 5 crear el metodo
   deleteFacturas(arregloFacturas): Observable<any> {
     arregloFacturas.forEach(factura => {
+      // console.log(this.deleteFactura);
       const respuesta = this._sHttp.delete(`${URL_BACKEND}/facturas/${factura.id}`);
-    
+      // console.log(this.deleteFactura);
     this.arregloRespuestas.push(respuesta);
+    this.arregloTmp=this.arregloRespuestas;
+    this.arregloRespuestas=[];
     });
-    return forkJoin(this.arregloRespuestas);  }
+    return forkJoin(this.arregloTmp); 
+   }
 }
