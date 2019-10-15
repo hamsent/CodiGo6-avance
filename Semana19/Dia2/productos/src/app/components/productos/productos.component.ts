@@ -139,4 +139,40 @@ export class ProductosComponent implements OnInit, OnDestroy {
     })
 
   }
+
+  eliminarProductos(){
+    console.log("eliminarProductos", this.productosSeleccionadas)
+    Swal.fire({
+      title: 'Estas seguro de cargarse estas facturas',
+      text: 'El proceso no tiene vuelta atrás!!!',
+      type: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      cancelButtonText: 'No, Cancelar!',
+      confirmButtonText: 'Si, borrar'
+    }).then((result) => {
+      if (result.value) {
+        
+        this._sProductos.deleteProductos(this.productosSeleccionadas).subscribe((rpta) => {
+
+          // si la rsta tiene un id, quiere decir que fue completamente borrado
+          if (rpta[0].prod_id) {
+            Swal.fire({
+              position: 'top-end',
+              type: 'success',
+              title: 'Las facturas han sido borrada con éxito',
+              showConfirmButton: false,
+              timer: 1500
+
+            })
+            // luego llamamos a la funcion para volver a cargar el component
+            this.traerProductos();
+          }
+          console.log(rpta);
+        })
+      }
+    })
+
+  }
 }

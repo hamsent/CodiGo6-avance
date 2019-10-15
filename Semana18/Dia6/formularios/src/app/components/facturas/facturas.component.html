@@ -99,7 +99,7 @@
                     </thead>
                     <tbody>
                         <tr *ngFor="let f of facturas">
-                            <td><input type="checkbox" class="form-control" (change)="seleccionarFactura($event, f)"></td>
+                            <td><input type="checkbox" class="form-control"  (change)="seleccionarFactura($event, f)"></td>
                             <!-- paso 1 -->
                             <td>{{f.id}}</td>
                             <td>{{f.fact_rz}}</td>

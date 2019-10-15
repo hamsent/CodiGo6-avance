@@ -116,7 +116,7 @@
     </div>
 </div>
 <main class="container mt-5">
-        <button class="btn btn-danger" *ngIf="productosSeleccionadas.length>0" (click)="eliminarProductos()">Eliminar Productos</button>
+        <button class="btn btn-outline-danger" *ngIf="productosSeleccionadas.length>0" (click)="eliminarProductos()">Eliminar Productos</button>
     <div>
         <div class="alert alert-info text-center" role="alert" *ngIf="!productos">
             <!-- <h4 class="alert-heading">Cargando..</h4> -->
@@ -130,7 +130,8 @@
         </div>
         <div *ngIf="productos" class="animated slideInLeft">
             <table class="table table-hover">
-                <thead class="bg-info">
+                <thead >
+                        <!-- class="bg-info" -->
                     <tr>
                         <th>SEL. BORRAR</th> 
                         <th>ID</th>
@@ -151,8 +152,8 @@
                         <td>{{p.prod_prec}}</td>
                         <td><img src={{p.prod_img}} style="width: 45px" class="card-img-top" alt="..." ></td>
                         <td>{{p.prod_stock}}</td>
-                        <td style="display: flex;"> <button class="btn btn-danger" (click)="eliminarProducto(p.prod_id)"><i class="fa fa-trash" aria-hidden="true"></i> </button>
-                            <button class="btn btn-info ml-2" (click)="abrirModalEditar(p.prod_id)"> <i class="fas fa-pencil-alt    "></i> </button></td>
+                        <td style="display: flex;"> <button class="btn btn-outline-danger" (click)="eliminarProducto(p.prod_id)"><i class="fa fa-trash" aria-hidden="true"></i> </button>
+                            <button class="btn btn-outline-info ml-2" (click)="abrirModalEditar(p.prod_id)"> <i class="fas fa-pencil-alt    "></i> </button></td>
                     </tr>
                 </tbody>
             </table>
