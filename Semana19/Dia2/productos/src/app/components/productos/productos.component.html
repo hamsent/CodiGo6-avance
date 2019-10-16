@@ -116,6 +116,7 @@
     </div>
 </div>
 <main class="container mt-5">
+    
         <button class="btn btn-outline-danger" *ngIf="productosSeleccionadas.length>0" (click)="eliminarProductos()">Eliminar Productos</button>
     <div>
         <div class="alert alert-info text-center" role="alert" *ngIf="!productos">
@@ -145,15 +146,15 @@
                 </thead>
                 <tbody>
                     <tr *ngFor="let p of productos">
-                            <td><input type="checkbox" class="form-control" (change)="seleccionarProducto($event, p)"></td>
+                            <td><input type="checkbox" class="form-control" (change)="seleccionarProducto($event, p)"> </td>
                         <td>{{p.prod_id}}</td>
                         <td>{{p.prod_nom}}</td>
                         <td>{{p.prod_desc}}</td>
                         <td>{{p.prod_prec}}</td>
                         <td><img src={{p.prod_img}} style="width: 45px" class="card-img-top" alt="..." ></td>
                         <td>{{p.prod_stock}}</td>
-                        <td style="display: flex;"> <button class="btn btn-outline-danger" (click)="eliminarProducto(p.prod_id)"><i class="fa fa-trash" aria-hidden="true"></i> </button>
-                            <button class="btn btn-outline-info ml-2" (click)="abrirModalEditar(p.prod_id)"> <i class="fas fa-pencil-alt    "></i> </button></td>
+                        <td style="display: flex;"> <button class="btn btn-outline-danger" (click)="eliminarProducto(p.prod_id)"><i class="fas fa-trash-alt" aria-hidden="true"></i> </button>
+                            <button class="btn btn-outline-info ml-2" (click)="abrirModalEditar(p.prod_id)"><i class="fas fa-user-edit"></i> </button></td>
                     </tr>
                 </tbody>
             </table>
