@@ -1,0 +1,145 @@
+<p>realtime works!</p>
+
+
+<section class="container">
+
+    <div *ngIf="!listaUsuarios">
+        Cargando...
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    Formulario de creacion de usuarios
+                </div>
+
+                <div class="card-body">
+                    
+                <!-- 6. colocar la directiva [FormGroup]  (ngSubmit)-->
+                    <form [formGroup]="formulario" (ngSubmit)="onSubmit(miimg)">
+                        <div class="form-group">
+                            <label for="">Nombre:</label>
+                            <!-- 7. colocamos formControlName -->
+                            <!-- 12. se agrego [ngClass] -->
+                            <input type="text" class="form-control" placeholder="Ingrese su Nombre" [ngClass]="{'is-valid': formulario.get('campo_nombre').valid,'is-invalid': !formulario.get('campo_nombre').valid && !formulario.get('campo_nombre').pristine}" formControlName="campo_nombre">
+                            <!-- 10.  validar y tambien usar pritine es cuando no lo tocaron-->
+                            <small class="text-danger" *ngIf="!formulario.get('campo_nombre').valid && !formulario.get('campo_nombre').pristine">
+                                El campo nombre es obligatorio
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Apellido:</label>
+                            <input type="text" class="form-control" placeholder="Ingrese su Apellido" [ngClass]="{'is-valid': formulario.get('campo_apellido').valid,'is-invalid': !formulario.get('campo_apellido').valid && !formulario.get('campo_apellido').pristine}" formControlName="campo_apellido">
+                            <small class="text-danger" *ngIf="!formulario.get('campo_apellido').valid && !formulario.get('campo_apellido').pristine">
+                                El campo apellido es obligatorio
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Imagen:</label>
+
+                            <img [src]="imgURL" *ngIf="imgURL" width="100">
+                            <!-- s6 cambiar datos -->
+                            <input type="file" class="form-control" #miimg  placeholder="Seleccione un Imagen" formControlName="campo_imagen" (change)="previsualizarFoto($event)">
+                            <!-- <small class="text-danger" *ngIf="!formulario.get('campo_imagen').valid && !formulario.get('campo_imagen').pristine">
+                                El campo imagen es obligatorio
+                            </small> -->
+                        </div>
+                        <div class="form-group">
+                                <label for="">Email:</label>
+                                <input type="text" class="form-control" placeholder="Ingrese su Email" [ngClass]="{'is-valid': formulario.get('campo_email').valid,'is-invalid': !formulario.get('campo_email').valid && !formulario.get('campo_email').pristine}" formControlName="campo_email">
+                                <!-- paso 11. los small-->
+
+                                <small class="text-danger" *ngIf="formulario.get('campo_email').errors?.required && !formulario.get('campo_email').pristine">
+                                   El campo email es obligatorio
+                                </small>
+                                <small class="text-danger" *ngIf="formulario.get('campo_email').errors?.pattern && !formulario.get('campo_email').pristine">
+                                   Debe ser un formato de email que incluya @ y .?
+                                </small>
+                            </div>
+                            <div class="form-group">
+                               <button class="btn btn-block btn-primary" [disabled]=!formulario.valid>
+                                    <i class="fas fa-save mr-2"></i>
+                                    Crear Usuario
+                               </button>
+                                </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            
+            <div class="card text-left">
+                <!-- 16. -->
+                <div class="card-header text-center">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-secondary" [ngClass]="{active: modoTabla}" (click)="modoTabla=true">
+                                   <i class="fas fa-list"></i>
+                                </button>
+                                <button type="button" class="btn btn-secondary" [ngClass]="{active: !modoTabla}" (click)="modoTabla=false">
+                                  <i class="fas fa-table"></i>
+                                </button>
+                               
+                              </div>
+                </div>
+                <div class="card-body">
+                    <!-- 19.. -->
+                        <div class="card-columns" *ngIf="listaUsuarios && !modoTabla" >
+                                <div class="card" *ngFor="let item of listaUsuarios; let i=index">
+                                  <img class="card-img-top" src="..." alt="Card image cap">
+                                  <div class="card-body">
+                                    <p class="card-text"><strong>Nombre:</strong>{{usu.nombre}}</p>
+                                    <p class="card-text"><strong>Apellido:</strong>{{usu.apellido}}</p>
+                                    <p class="card-text"><strong>email:</strong>{{usu.email}}</p>
+                                  </div>
+                                </div>
+                            </div>        
+                    
+                    <!-- 18 agregamo modoTabla para -->
+
+                        <table *ngIf="listaUsuarios && modoTabla" class="table table-dark animated fadeIn">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th>#</th>
+                                        <th>ID</th>
+                                        <th>NOMBRE</th>
+                                        <th>APELLIDO</th>
+                                        <th>IMAGEN</th>
+                                        <TH>ACCIONES</TH>
+                                    </tr>
+                
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let usu of listaUsuarios; let i=index" class="text-center">
+                                        <td>{{i}}</td>
+                                        <td>{{usu.id}}</td>
+                                        <td>{{usu.nombre}}</td>
+                                        <td>{{usu.apellido}}</td>
+                                        <td>
+                                            <img [src]="usu.imagen" width="100">
+                                        </td>
+                
+                                        <td>
+                                            <button class="btn btn-info">
+                                                <i class="fas fa-pen"></i>
+                                            </button>
+                                            <button class="btn btn-dark ml-3" (click)="eliminarUsuario(usu.id)">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                </div>
+
+            </div>
+           
+        </div>
+    </div>
+
+
+
+
+</section>
