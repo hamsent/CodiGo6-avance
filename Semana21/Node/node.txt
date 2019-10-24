@@ -1,0 +1,9 @@
+npm init -- crea proyecto node
+tsc 
+npm i express
+npm i -D @types/express
+npm i -D @types/node
+
+tsc -w
+nodemon ./dist/index.js
+npm i body-parser
