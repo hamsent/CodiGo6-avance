@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuCombiAppBackend", "TuCombiAppBackend\TuCombiAppBackend.csproj", "{551D5DA2-6A45-44E0-B2E9-A1C86F965A1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{551D5DA2-6A45-44E0-B2E9-A1C86F965A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551D5DA2-6A45-44E0-B2E9-A1C86F965A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551D5DA2-6A45-44E0-B2E9-A1C86F965A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551D5DA2-6A45-44E0-B2E9-A1C86F965A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B7B5A05-C927-4EFF-A3F4-DA2CD4E8E371}
+	EndGlobalSection
+EndGlobal
