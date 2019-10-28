@@ -1,5 +1,5 @@
 {
-  "name": "productos",
+  "name": "adminpro",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,12 +19,7 @@
     "@angular/platform-browser": "~8.2.8",
     "@angular/platform-browser-dynamic": "~8.2.8",
     "@angular/router": "~8.2.8",
-    "angularx-social-login": "^2.1.1",
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0",
     "rxjs": "~6.4.0",
-    "sweetalert2": "^8.18.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
