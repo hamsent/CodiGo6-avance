@@ -1,0 +1,14 @@
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\bin\Debug\netcoreapp2.2\TuCombiAppBackend.deps.json
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\bin\Debug\netcoreapp2.2\TuCombiAppBackend.runtimeconfig.json
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\bin\Debug\netcoreapp2.2\TuCombiAppBackend.runtimeconfig.dev.json
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\bin\Debug\netcoreapp2.2\TuCombiAppBackend.dll
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\obj\Debug\netcoreapp2.2\TuCombiAppBackend.csprojAssemblyReference.cache
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\obj\Debug\netcoreapp2.2\TuCombiAppBackend.csproj.CoreCompileInputs.cache
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\obj\Debug\netcoreapp2.2\TuCombiAppBackend.RazorAssemblyInfo.cache
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\obj\Debug\netcoreapp2.2\TuCombiAppBackend.RazorAssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\obj\Debug\netcoreapp2.2\TuCombiAppBackend.AssemblyInfoInputs.cache
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\obj\Debug\netcoreapp2.2\TuCombiAppBackend.AssemblyInfo.cs
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\obj\Debug\netcoreapp2.2\TuCombiAppBackend.RazorTargetAssemblyInfo.cache
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\bin\Debug\netcoreapp2.2\TuCombiAppBackend.pdb
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\obj\Debug\netcoreapp2.2\TuCombiAppBackend.dll
+D:\Ronald\CodiGo6-avance\Semana22\C#\TuCombiAppBackend\TuCombiAppBackend\obj\Debug\netcoreapp2.2\TuCombiAppBackend.pdb
