@@ -1,6 +1,7 @@
 
 import express from 'express';
 import { producto_router } from './../rutas/Producto';
+import { empleado_router } from './../rutas/Empleado'
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
 //1. luego de crear config 
@@ -28,6 +29,7 @@ export class Servidor {
 
   configurarRutas() {
     this.app.use(producto_router);
+    this.app.use(empleado_router);
   }
 
   start() {
@@ -38,7 +40,9 @@ export class Servidor {
 // force:true al actualizar o ejecutar borra todo la base de datos y lo vuelve a crear pero se eliminan los datos
 // false cada ves que inicie no tocara nada sin embargo si creamos una nueva tabla la creara sin problemas
 // sync sincroniza/crea, los modelos 
-      sequelize.sync({force:true}).then(()=>{
+
+// cuanod no se puede hacer las relaciones se pone en true para que lo fuerce y luego lo volvemos a poner a false
+      sequelize.sync({force:false}).then(()=>{
         console.log("Tablas creadas con exito");
       }).catch((error:any)=>{
         console.log("Algo a pasado llama a alguien de CodiGo", error);

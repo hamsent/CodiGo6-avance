@@ -35,7 +35,14 @@ export const Det_Venta=det_venta_model(sequelize,Sequelize);
 // aqui se relacionan las tablas
 
 Venta.belongsTo(Empleado,{foreignKey:'emp_id'});
-
 // segunda relación
 // empleado va a tener muchas ventas
 Empleado.hasMany(Venta,{foreignKey:'emp_id'});
+
+Det_Venta.belongsTo(Venta,{foreignKey:'vent_id'});
+Venta.hasMany(Det_Venta,{foreignKey:'vent_id'});
+
+Det_Venta.belongsTo(Producto,{foreignKey:'prod_id'});
+Producto.hasMany(Det_Venta,{foreignKey:'prod_id'});
+
+

@@ -26,5 +26,8 @@ export var empleado_model=(sequelize:Sequelize, type:any)=>{
         modelName:'t_empleado',
         timestamps:false
     });
+    // prototype
+    empleado_model.prototype
+
     return empleado_model;
 }
