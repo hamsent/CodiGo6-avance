@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    // agregamos las siguientes dos lineas, para que no salga error luego de instalar  npm i swagger-ui-express
+    "resolveJsonModule": true,
+    "allowJs": true
+  }
+}
