@@ -1,6 +1,8 @@
 import { conexion } from './../configuracion/sequelize';
 import express, { Request, Response } from 'express';
 import { pabellon_router } from './../rutas/Pabellon';
+import { aulas_router } from './../rutas/Aulas';
+import {usuario_router} from './../rutas/Usuario';
 
 let bodyParser=require('body-parser');
 
@@ -34,8 +36,11 @@ export class Server {
     // aqui tambien copiamos la linea de la documentacion luego de instalar  npm i swagger-ui-express y le anteponemos this.
     this.app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
+//  al colocar /api quiere decir que todo se pone despues de api
+    this.app.use('/api',pabellon_router);
+    this.app.use('/api',aulas_router);
+    this.app.use('/api',usuario_router);
 
-    this.app.use(pabellon_router);
   }
 
   start() {
@@ -45,7 +50,7 @@ export class Server {
       // force:false, si las tablas no existen en la base de datos
       // las crea. Si las tablas ya existían en la base de datos
       // sólo crea las nuevas tablas en caso de que hubieran
-      conexion.sync({ force: true }).then(() => {
+      conexion.sync({ force: false }).then(() => {
         console.log("Base de datos creada correctamente");        
       })
     });

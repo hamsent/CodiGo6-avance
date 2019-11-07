@@ -1,4 +1,7 @@
 import {DataTypes, Sequelize} from 'sequelize';
+
+const crypto=require('crypto');
+
 export let usuario_model=(sequelize:Sequelize)=>{
     var usuario=sequelize.define('t_usuario',{
         usu_id:{
@@ -32,5 +35,11 @@ export let usuario_model=(sequelize:Sequelize)=>{
         tableName:'t_usuario',
         timestamps:false
     });
+    // sirve para encriptar la contraseña ingresada por el usuario
+    usuario.prototype.setSaltYHash=function(password:any){
+        // instalamos npm i --save-dev @types/crypto-js
+        this.usu_salt=crypto.randomBytes(16).toString('hex');
+        this.usu_hash=crypto.pbkdf2Sync(password,this.usu_salt,1000,64,'sha512').toString('hex');
+    }
     return usuario;
 }
