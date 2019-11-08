@@ -10,6 +10,7 @@ let bodyParser=require('body-parser');
 const swaggerUi = require('swagger-ui-express');
 // cambiamos const swaggerDocument = require('./../apidoc/documentacion.json'); por
 import * as swaggerDocument from './../apidoc/documentacion.json';
+import { reserva_router } from '../rutas/Reserva';
 
 export class Server {
   public app: express.Application;
@@ -40,6 +41,7 @@ export class Server {
     this.app.use('/api',pabellon_router);
     this.app.use('/api',aulas_router);
     this.app.use('/api',usuario_router);
+    this.app.use('/api',reserva_router);
 
   }
 
