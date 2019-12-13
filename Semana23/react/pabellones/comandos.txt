@@ -1,0 +1,4 @@
+instalamos 
+
+npm i axios
+npm i sweetalert2

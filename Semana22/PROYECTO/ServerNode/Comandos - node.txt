@@ -1,0 +1,25 @@
+npm init -- crea proyecto node
+tsc -w compilar servidor y nmp start
+npm i express
+npm i -D @types/express
+npm i -D @types/node
+npm install body-parser es un 
+npm install @types/body-parser -D
+npm install @types/morgan -D
+tsc -w}
+nodemon ./dist/index.js
+npm i body-parser
+
+
+******************
+1. npm i sequelize
+2. npm i mysql2
+3. npm i @types/validator -D
+4. npm i @types/bluebird -D
+creamos la carpeta config
+compilamos 
+tsc -w
+npm start
+si sale error vamos al mysql en file / new query tab  y escribimos ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'
+creamos modules / producto.ts
+ 

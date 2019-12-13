@@ -1,0 +1,11 @@
+{
+  "name": "back-sockets",
+  "version": "1.0.0",
+  "description": "Back del chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronald",
+  "license": "ISC"
+}
